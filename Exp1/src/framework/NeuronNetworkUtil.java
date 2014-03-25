@@ -23,6 +23,25 @@ public class NeuronNetworkUtil {
 		return nLayer;
 	}
 	
+	public static INeuronLayer generateNeuronLayer(int nCount, INeuronValuesFactory factory) {
+		INeuronLayer nLayer = new BaseNeuronLayerImpl();
+		IActivationFunction actFunction = factory.getActivationFunction();
+		if (actFunction == null) {
+			System.err.println("Null Activation function - Setting Linear");
+			actFunction = new LinearActivationFunction();
+		}
+		ISummInput summInp = factory.getSummInput();
+		if (summInp == null) {
+			System.err.println("Null SummInput function - Setting SigmaInput");
+			summInp = new SigmaInput();
+		}
+		for (int i = 0; i < nCount; i++) {
+			INeuron newNeuron = new BaseNeuronImpl(actFunction, summInp);
+			nLayer.getNeuronList().add(newNeuron);
+		}
+		return nLayer;
+	}
+	
 	public static void interconnectAllRandomWeights(INeuronLayer nl1, INeuronLayer nl2, double lowBound, double highBound) {
 		if ((nl1 != null) && (nl2 != null)) {
 			for (INeuron neuronSrc : nl1.getNeuronList()) {

@@ -10,6 +10,35 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 	protected INeuronLayer outputLayer;
 	protected double gamma = 1;
 	
+	public class OutputDeltaWrapper {
+		protected Double deltaValue;
+		protected INeuron outputNeuron;
+		public OutputDeltaWrapper() {
+			
+		}
+		
+		public OutputDeltaWrapper(Double val, INeuron nr) {
+			deltaValue = val;
+			outputNeuron = nr;
+		}
+
+		public Double getDeltaValue() {
+			return deltaValue;
+		}
+
+		public void setDeltaValue(Double deltaValue) {
+			this.deltaValue = deltaValue;
+		}
+
+		public INeuron getOutputNeuron() {
+			return outputNeuron;
+		}
+
+		public void setOutputNeuron(INeuron outputNeuron) {
+			this.outputNeuron = outputNeuron;
+		}
+	}
+	
 	public BackPropNeuronNetwork() {
 		// TODO Auto-generated constructor stub
 	}
@@ -28,20 +57,61 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 			System.out.println("One of result arrays is null - Existing");
 			return null;
 		}
+		if (expectedResults.size() != outputLayer.getNeuronList().size()) {
+			System.out.println("Incorrect expected results size " + expectedResults.size() 
+					+ " output neurons " + outputLayer.getNeuronList().size());
+			return null;
+		}
 		CalculationResult calcRes = calculate(inputs);
 		recalculateWeights(expectedResults, calcRes.getResult());
 		
-		return new TrainResult();
+		return new TrainResult(expectedResults, calcRes.getResult());
 	}
 	
 	protected void recalculateWeights(List<Double> expectedResults, List<Double> actualResults) {
-		//double smallDelta = 
+		List<OutputDeltaWrapper> outputDelta = new ArrayList<>();
+		// recalculate for the output neurons
+		for (int i = 0; i < outputLayer.getNeuronList().size(); i++) {
+			INeuron nr = outputLayer.getNeuronList().get(i);
+			double otpDelta = (expectedResults.get(i) - actualResults.get(i))
+					*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
+			outputDelta.add(new OutputDeltaWrapper(otpDelta, nr));
+			for (INeuronLink lnk : nr.getInputLinks()) {
+				System.out.println("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " old weight " + lnk.getLinkWeight());
+				double deltaW = gamma*otpDelta*lnk.getSource().getCurrentActivation();
+				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
+				System.out.println("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " new weight " + lnk.getLinkWeight());
+			}
+		}
+		// recalculate for the hidden layer
+		for (int i = 0; i < hiddenLayer.getNeuronList().size(); i++) {
+			INeuron nr = hiddenLayer.getNeuronList().get(i);
+			double hdnDelta = 0;
+			for (INeuronLink lnk : nr.getOutputLinks()) {
+				double tmpOtpDelta = 0;
+				for (OutputDeltaWrapper wrp : outputDelta) {
+					if (wrp.getOutputNeuron().equals(lnk.getDestination())) {
+						tmpOtpDelta = wrp.getDeltaValue();
+						break;
+					}
+				}
+				hdnDelta += tmpOtpDelta*lnk.getLinkWeight();
+			}
+			hdnDelta = hdnDelta*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
+			for (INeuronLink lnk : nr.getInputLinks()) {
+				System.out.println("Hidden Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " old weight " + lnk.getLinkWeight());
+				double deltaW = gamma*hdnDelta*lnk.getSource().getCurrentActivation();
+				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
+				System.out.println("Hidden Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " new weight " + lnk.getLinkWeight());
+			}
+		}
 	}
 
 	@Override
 	public TestResult test(List<Double> inputs, List<Double> expectedResults) {
-		// TODO Auto-generated method stub
-		return null;
+		CalculationResult calcRes = calculate(inputs);
+		TestResult tst = new TestResult(inputs, calcRes.getResult());
+		return tst;
 	}
 
 	@Override

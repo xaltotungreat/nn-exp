@@ -18,6 +18,8 @@ public interface INeuron {
 	public void resetCurrentOutput();
 	public Double getBias();
 	public void setBias(Double bias);
+	public IActivationFunction getActivationFunction();
+	public ISummInput getSummInput();
 	
 	public Double calculateActivation();
 }
