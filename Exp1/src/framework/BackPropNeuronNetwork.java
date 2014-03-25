@@ -1,15 +1,21 @@
 package framework;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class SimpleNeuronNetwork extends BaseNeuronNetworkImpl {
+public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 
 	protected INeuronLayer inputLayer;
 	protected INeuronLayer hiddenLayer;
 	protected INeuronLayer outputLayer;
+	protected double gamma = 1;
 	
-	public SimpleNeuronNetwork() {
+	public BackPropNeuronNetwork() {
 		// TODO Auto-generated constructor stub
+	}
+	
+	public BackPropNeuronNetwork(double gm) {
+		gamma = gm;
 	}
 
 	@Override
@@ -22,16 +28,14 @@ public class SimpleNeuronNetwork extends BaseNeuronNetworkImpl {
 			System.out.println("One of result arrays is null - Existing");
 			return null;
 		}
-		for (int i = 0; i < inputLayer.getNeuronList().size(); i++) {
-			INeuron inputNeuron = inputLayer.getNeuronList().get(i);
-			inputNeuron.setCurrentOutput(inputs.get(i));
-		}
+		CalculationResult calcRes = calculate(inputs);
+		recalculateWeights(expectedResults, calcRes.getResult());
 		
-		return null;
+		return new TrainResult();
 	}
 	
 	protected void recalculateWeights(List<Double> expectedResults, List<Double> actualResults) {
-		
+		//double smallDelta = 
 	}
 
 	@Override
@@ -42,8 +46,20 @@ public class SimpleNeuronNetwork extends BaseNeuronNetworkImpl {
 
 	@Override
 	public CalculationResult calculate(List<Double> inputs) {
-		// TODO Auto-generated method stub
-		return null;
+		CalculationResult res = new CalculationResult();
+		for (int i = 0; i < inputLayer.getNeuronList().size(); i++) {
+			INeuron inputNeuron = inputLayer.getNeuronList().get(i);
+			inputNeuron.setCurrentActivation(inputs.get(i));
+		}
+		for (INeuron nr : hiddenLayer.getNeuronList()) {
+			nr.calculateActivation();
+		}
+		List<Double> outputs = new ArrayList<>();
+		for (INeuron nrOutp : outputLayer.getNeuronList()) {
+			outputs.add(nrOutp.calculateActivation());
+		}
+		res.setResult(outputs);
+		return res;
 	}
 
 	public INeuronLayer getInputLayer() {

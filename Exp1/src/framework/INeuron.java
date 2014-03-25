@@ -11,8 +11,10 @@ public interface INeuron {
 	public List<INeuronLink> getOutputLinks();
 	public void setOutputLinks(List<INeuronLink> outputLinks);
 	
-	public Double getCurrentOutput();
-	public void setCurrentOutput(Double currentOutput);
+	public Double getCurrentInput();
+	public void setCurrentInput(Double currentInput);
+	public Double getCurrentActivation();
+	public void setCurrentActivation(Double currentOutput);
 	public void resetCurrentOutput();
 	public Double getBias();
 	public void setBias(Double bias);

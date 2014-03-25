@@ -10,7 +10,8 @@ public class BaseNeuronImpl implements INeuron {
 	protected UUID id;
 	protected List<INeuronLink> inputLinks = Collections.synchronizedList(new ArrayList<INeuronLink>());
 	protected List<INeuronLink> outputLinks = Collections.synchronizedList(new ArrayList<INeuronLink>());
-	protected Double currentOutput = 0d;
+	protected Double currentInput = 0d;
+	protected Double currentActivation = 0d;
 	protected Double bias = 0d;
 	protected IActivationFunction activationFunction;
 	protected ISummInput summInput;
@@ -28,9 +29,9 @@ public class BaseNeuronImpl implements INeuron {
 	@Override
 	public Double calculateActivation() {
 		if ((activationFunction != null) && (summInput != null)) {
-			currentOutput = activationFunction.getActivationFunctionValue(summInput.getSummInputValue(inputLinks) + bias);
+			currentActivation = activationFunction.getActivationFunctionValue(summInput.getSummInputValue(inputLinks) + bias);
 		}
-		return currentOutput;
+		return currentActivation;
 	}
 	
 	@Override
@@ -54,17 +55,25 @@ public class BaseNeuronImpl implements INeuron {
 		this.outputLinks = outputLinks;
 	}
 
-	public Double getCurrentOutput() {
-		return currentOutput;
+	public Double getCurrentInput() {
+		return currentInput;
 	}
 
-	public void setCurrentOutput(Double currentOutput) {
-		this.currentOutput = currentOutput;
+	public void setCurrentInput(Double currentInput) {
+		this.currentInput = currentInput;
+	}
+
+	public Double getCurrentActivation() {
+		return currentActivation;
+	}
+
+	public void setCurrentActivation(Double currentAct) {
+		this.currentActivation = currentAct;
 	}
 	
 	@Override
 	public void resetCurrentOutput() {
-		currentOutput = 0d;
+		currentActivation = 0d;
 	}
 
 	public Double getBias() {

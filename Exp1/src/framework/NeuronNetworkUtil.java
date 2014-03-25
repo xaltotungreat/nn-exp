@@ -10,7 +10,7 @@ public class NeuronNetworkUtil {
 		INeuronLayer nLayer = new BaseNeuronLayerImpl();
 		IActivationFunction actFunction = actF;
 		if (actFunction == null) {
-			actFunction = new SimpleActivationFunction();
+			actFunction = new LinearActivationFunction();
 		}
 		ISummInput summInp = inp;
 		if (summInp == null) {

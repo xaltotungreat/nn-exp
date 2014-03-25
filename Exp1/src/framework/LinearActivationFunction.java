@@ -1,8 +1,8 @@
 package framework;
 
-public class SimpleActivationFunction implements IActivationFunction {
+public class LinearActivationFunction implements IActivationFunction {
 
-	public SimpleActivationFunction() {
+	public LinearActivationFunction() {
 		// TODO Auto-generated constructor stub
 	}
 

@@ -13,7 +13,7 @@ public class SigmaInput implements ISummInput {
 		double res = 0;
 		if (inputLinks != null) {
 			for (INeuronLink nl : inputLinks) {
-				res += nl.getLinkWeight()*nl.getSource().getCurrentOutput();
+				res += nl.getLinkWeight()*nl.getSource().getCurrentActivation();
 			}
 		}
 		return res;
