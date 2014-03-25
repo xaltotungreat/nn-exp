@@ -15,21 +15,22 @@ public class TrainResult {
 		expectedResults = exp;
 		actualResults = act;
 	}
-	
-	public List<Double> getInputs() {
+
+	public List<Double> getExpectedResults() {
 		return expectedResults;
 	}
 
-	public void setInputs(List<Double> inputs) {
-		this.expectedResults = inputs;
+	public void setExpectedResults(List<Double> expectedResults) {
+		this.expectedResults = expectedResults;
 	}
 
-	public List<Double> getOutputs() {
+	public List<Double> getActualResults() {
 		return actualResults;
 	}
 
-	public void setOutputs(List<Double> outputs) {
-		this.actualResults = outputs;
+	public void setActualResults(List<Double> actualResults) {
+		this.actualResults = actualResults;
 	}
+	
 
 }

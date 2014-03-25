@@ -19,7 +19,7 @@ public class BaseNeuronImpl implements INeuron {
 	public BaseNeuronImpl() {
 		id = UUID.randomUUID();
 	}
-	
+
 	public BaseNeuronImpl(IActivationFunction actFunc, ISummInput inp) {
 		this();
 		activationFunction = actFunc;
@@ -29,7 +29,8 @@ public class BaseNeuronImpl implements INeuron {
 	@Override
 	public Double calculateActivation() {
 		if ((activationFunction != null) && (summInput != null)) {
-			currentActivation = activationFunction.getActivationFunctionValue(summInput.getSummInputValue(inputLinks) + bias);
+			currentInput = summInput.getSummInputValue(inputLinks);
+			currentActivation = activationFunction.getActivationFunctionValue(currentInput + bias);
 		}
 		return currentActivation;
 	}
@@ -90,6 +91,12 @@ public class BaseNeuronImpl implements INeuron {
 
 	public ISummInput getSummInput() {
 		return summInput;
+	}
+	
+	@Override
+	public String toString() {
+		return "BaseNeuronImpl [id=" + id + ", currentInput=" + currentInput
+				+ ", currentActivation=" + currentActivation + "]";
 	}
 
 	@Override

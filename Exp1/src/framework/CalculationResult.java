@@ -22,4 +22,9 @@ public class CalculationResult {
 		this.result = result;
 	}
 
+	@Override
+	public String toString() {
+		return "CalculationResult [result=" + result + "]";
+	}
+
 }

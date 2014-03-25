@@ -20,7 +20,7 @@ public class LinearActivationFunction implements IActivationFunction {
 	@Override
 	public Double getDerivativeValueByS(int level, Double input) {
 		double res = coeff;
-		if (level >= 1) {
+		if (level > 1) {
 			res = 0;
 		}
 		return res;

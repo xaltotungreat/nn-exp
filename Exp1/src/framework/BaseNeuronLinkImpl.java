@@ -1,7 +1,7 @@
 package framework;
 
 public class BaseNeuronLinkImpl implements INeuronLink {
-
+	
 	protected INeuron source;
 	protected INeuron destination;
 	protected Double linkWeight;
@@ -40,6 +40,10 @@ public class BaseNeuronLinkImpl implements INeuronLink {
 		this.linkWeight = linkWeight;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "BaseNeuronLinkImpl [linkWeight=" + linkWeight + ", source=" + source + ", destination="
+				+ destination + "]";
+	}
 
 }
