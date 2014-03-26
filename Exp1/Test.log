@@ -1,0 +1,5 @@
+2014-03-26 01:53:34,670 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 30.0
+2014-03-26 01:54:04,398 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 5.8994142998783255E-189
+2014-03-26 01:54:07,477 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 30.0
+2014-03-26 01:54:08,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 30.0
+2014-03-26 01:54:09,877 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.0
