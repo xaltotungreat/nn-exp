@@ -80,10 +80,10 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 					*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
 			outputDelta.add(new OutputDeltaWrapper(otpDelta, nr));
 			for (INeuronLink lnk : nr.getInputLinks()) {
-				//System.out.println("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " old weight " + lnk.getLinkWeight());
+				LOG.debug("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " old weight " + lnk.getLinkWeight());
 				double deltaW = gamma*otpDelta*lnk.getSource().getCurrentActivation();
 				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
-				//System.out.println("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " new weight " + lnk.getLinkWeight());
+				LOG.debug("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " new weight " + lnk.getLinkWeight());
 			}
 		}
 		// recalculate for the hidden layer

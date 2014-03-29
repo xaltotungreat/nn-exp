@@ -8,6 +8,7 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+import framework.AtanActivationFunction;
 import framework.BackPropNeuronNetwork;
 import framework.IActivationFunction;
 import framework.INeuronLayer;
@@ -25,7 +26,7 @@ public class Test1 {
 	
 	public static void main(String[] args) {
 		PropertyConfigurator.configure("log4j.properties");
-		BackPropNeuronNetwork nn = new BackPropNeuronNetwork(0.001);
+		BackPropNeuronNetwork nn = new BackPropNeuronNetwork(1);
 		INeuronValuesFactory defFactory = new INeuronValuesFactory() {
 			
 			@Override
@@ -35,13 +36,14 @@ public class Test1 {
 			
 			@Override
 			public IActivationFunction getActivationFunction() {
-				return new SigmoidActivationFunction(30);
+				//return new SigmoidActivationFunction(30);
 				//return new LinearActivationFunction(1);
+				return new AtanActivationFunction();
 			}
 		};
 		
 		INeuronLayer inpLayer = NeuronNetworkUtil.generateNeuronLayer(1, defFactory);
-		INeuronLayer hidLayer = NeuronNetworkUtil.generateNeuronLayer(5, defFactory);
+		INeuronLayer hidLayer = NeuronNetworkUtil.generateNeuronLayer(8, defFactory);
 		INeuronLayer outpLayer = NeuronNetworkUtil.generateNeuronLayer(1, defFactory);
 		NeuronNetworkUtil.interconnectAllRandomWeights(inpLayer, hidLayer, -10, 10);
 		NeuronNetworkUtil.interconnectAllRandomWeights(hidLayer, outpLayer, -10, 10);
@@ -49,12 +51,13 @@ public class Test1 {
 		nn.setHiddenLayer(hidLayer);
 		nn.setOutputLayer(outpLayer);
 		
-		Map<List<Double>,List<Double>> trainValues = getInputsResultsX(100, -180, 180);
+		Map<List<Double>,List<Double>> trainValues = getInputsResultsSin(200, -4, 4);
 		for (Map.Entry<List<Double>,List<Double>> currEntry : trainValues.entrySet()) {
 			TrainResult currRes = nn.train(currEntry.getKey(), currEntry.getValue());
 			//System.out.println("Diff " + (currRes.getExpectedResults().get(0) - currRes.getActualResults().get(0)));
 			LOG.debug("Init Values " + currEntry.getKey().get(0) + " " + currEntry.getValue().get(0));
-			LOG.info("Expected " + currRes.getExpectedResults().get(0) + " Actual " + currRes.getActualResults().get(0));
+			LOG.info("Expected " + currRes.getExpectedResults().get(0) + " Actual " + currRes.getActualResults().get(0) 
+					+ " Diff " + (currRes.getExpectedResults().get(0) - currRes.getActualResults().get(0)));
 		}
 	}
 	

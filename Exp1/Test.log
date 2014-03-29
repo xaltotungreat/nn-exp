@@ -1,5 +1,1600 @@
-2014-03-26 01:53:34,670 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 30.0
-2014-03-26 01:54:04,398 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 5.8994142998783255E-189
-2014-03-26 01:54:07,477 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 30.0
-2014-03-26 01:54:08,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 30.0
-2014-03-26 01:54:09,877 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.0
+2014-03-30 01:07:47,533 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.454179952320613
+2014-03-30 01:07:47,534 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2916439260285588
+2014-03-30 01:07:47,534 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3793965330920717
+2014-03-30 01:07:47,534 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5110080268518107
+2014-03-30 01:07:47,535 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4827153865216087
+2014-03-30 01:07:47,535 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3156421854060805
+2014-03-30 01:07:47,537 [main] DEBUG test.Test1 - Init Values -1.7475263667012948 -0.9844238513674793
+2014-03-30 01:07:47,537 [main] INFO  test.Test1 - Expected -0.9844238513674793 Actual 1.3156421854060805 Diff -2.30006603677356
+2014-03-30 01:07:47,537 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4869943321214751
+2014-03-30 01:07:47,537 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.365744371219445
+2014-03-30 01:07:47,537 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4318027612122801
+2014-03-30 01:07:47,537 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5276135726479718
+2014-03-30 01:07:47,537 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5070344143323968
+2014-03-30 01:07:47,537 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1619525552129262
+2014-03-30 01:07:47,538 [main] DEBUG test.Test1 - Init Values 2.421692703249537 0.659309450764006
+2014-03-30 01:07:47,538 [main] INFO  test.Test1 - Expected 0.659309450764006 Actual -1.1619525552129262 Diff 1.8212620059769322
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0339580797465926
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.5907972879033916
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7857523925653063
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2709766753842147
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1414833190882288
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.5558922174927169
+2014-03-30 01:07:47,538 [main] DEBUG test.Test1 - Init Values 0.33862687309037387 0.33219225635604377
+2014-03-30 01:07:47,538 [main] INFO  test.Test1 - Expected 0.33219225635604377 Actual -0.5558922174927169 Diff 0.8880844738487607
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4425371009047
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.229919787725554
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3400032660503705
+2014-03-30 01:07:47,538 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.49589027401047
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.457208755662584
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.378183513766047
+2014-03-30 01:07:47,539 [main] DEBUG test.Test1 - Init Values 1.4008843770897137 0.9855996596447071
+2014-03-30 01:07:47,539 [main] INFO  test.Test1 - Expected 0.9855996596447071 Actual 1.378183513766047 Diff -0.3925838541213399
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5163842920974666
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4221504633087338
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4719163604828875
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5391329113475378
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5226946514157158
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.388811759113153
+2014-03-30 01:07:47,539 [main] DEBUG test.Test1 - Init Values 3.319085119751219 -0.17656199181546248
+2014-03-30 01:07:47,539 [main] INFO  test.Test1 - Expected -0.17656199181546248 Actual 1.388811759113153 Diff -1.5653737509286154
+2014-03-30 01:07:47,539 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5074876753241209
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3983494726335262
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4559034357912868
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5339822587001624
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5148947323841602
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.365863319424525
+2014-03-30 01:07:47,540 [main] DEBUG test.Test1 - Init Values 2.8542610628693863 0.28339422324210467
+2014-03-30 01:07:47,540 [main] INFO  test.Test1 - Expected 0.28339422324210467 Actual 1.365863319424525 Diff -1.0824690961824204
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4273387726293694
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1932570071685302
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3138056404129181
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4871492867214873
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.444126923570126
+2014-03-30 01:07:47,540 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.320374071599131
+2014-03-30 01:07:47,540 [main] DEBUG test.Test1 - Init Values -1.2537768505097597 -0.9501687735145465
+2014-03-30 01:07:47,541 [main] INFO  test.Test1 - Expected -0.9501687735145465 Actual -1.320374071599131 Diff 0.37020529808458447
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.462087251820671
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.279955706128602
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.374918573818098
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5076023757103088
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.475007687593316
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.317440197907549
+2014-03-30 01:07:47,541 [main] DEBUG test.Test1 - Init Values 1.6611536278022943 0.9959205557428465
+2014-03-30 01:07:47,541 [main] INFO  test.Test1 - Expected 0.9959205557428465 Actual 1.317440197907549 Diff -0.3215196421647024
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3991807905428404
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.127330909523588
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2656752656409227
+2014-03-30 01:07:47,541 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4707162486903105
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4195232255929724
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2817689443462572
+2014-03-30 01:07:47,542 [main] DEBUG test.Test1 - Init Values 1.0467630253901214 0.8658080591297516
+2014-03-30 01:07:47,542 [main] INFO  test.Test1 - Expected 0.8658080591297516 Actual 1.2817689443462572 Diff -0.41596088521650565
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5218201230432582
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4375152620898064
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4820762193092731
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.542460928494926
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5278222104142436
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2998117150019783
+2014-03-30 01:07:47,542 [main] DEBUG test.Test1 - Init Values -3.7082116448663713 0.5367824952924052
+2014-03-30 01:07:47,542 [main] INFO  test.Test1 - Expected 0.5367824952924052 Actual -1.2998117150019783 Diff 1.8365942102943835
+2014-03-30 01:07:47,542 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5050679730014072
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3931753467879422
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4520984587640544
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.532834524917074
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5132785989132171
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1188848158177263
+2014-03-30 01:07:47,543 [main] DEBUG test.Test1 - Init Values 2.766988614059869 0.36590405614733085
+2014-03-30 01:07:47,543 [main] INFO  test.Test1 - Expected 0.36590405614733085 Actual 1.1188848158177263 Diff -0.7529807596703955
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5123803223452417
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4134937467807476
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4655202110604333
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5371693645954583
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5198930167189315
+2014-03-30 01:07:47,543 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.46177011014928726
+2014-03-30 01:07:47,544 [main] DEBUG test.Test1 - Init Values -3.1234660944872257 -0.01812556647180792
+2014-03-30 01:07:47,544 [main] INFO  test.Test1 - Expected -0.01812556647180792 Actual -0.46177011014928726 Diff 0.44364454367747935
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4202693912535922
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1870190164485126
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3053136251157624
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.484341978720767
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4405977944480224
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.276991786021887
+2014-03-30 01:07:47,544 [main] DEBUG test.Test1 - Init Values -1.2117757919352607 -0.9362414150269164
+2014-03-30 01:07:47,544 [main] INFO  test.Test1 - Expected -0.9362414150269164 Actual 1.276991786021887 Diff -2.213233201048803
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4998976586519657
+2014-03-30 01:07:47,544 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3803641428907878
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4429871423692557
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.529870899603559
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5088181669814678
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.9985079836736481
+2014-03-30 01:07:47,545 [main] DEBUG test.Test1 - Init Values 2.5662375210662347 0.5441327808635084
+2014-03-30 01:07:47,545 [main] INFO  test.Test1 - Expected 0.5441327808635084 Actual -0.9985079836736481 Diff 1.5426407645371565
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2210143247642045
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7843469210654659
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9839423119285424
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3612894652701664
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2580813470793029
+2014-03-30 01:07:47,545 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.148651798010961
+2014-03-30 01:07:47,546 [main] DEBUG test.Test1 - Init Values -0.4944595149111022 -0.4745559719436413
+2014-03-30 01:07:47,546 [main] INFO  test.Test1 - Expected -0.4745559719436413 Actual -1.148651798010961 Diff 0.6740958260673197
+2014-03-30 01:07:47,546 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4410349875630852
+2014-03-30 01:07:47,546 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2309617066230096
+2014-03-30 01:07:47,546 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3393690306787391
+2014-03-30 01:07:47,546 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.495794878987809
+2014-03-30 01:07:47,546 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4574826728020633
+2014-03-30 01:07:47,546 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1459782979669173
+2014-03-30 01:07:47,546 [main] DEBUG test.Test1 - Init Values -1.3982264184616557 -0.9851467296489996
+2014-03-30 01:07:47,547 [main] INFO  test.Test1 - Expected -0.9851467296489996 Actual -1.1459782979669173 Diff 0.16083156831791767
+2014-03-30 01:07:47,547 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.4954848005020494
+2014-03-30 01:07:47,547 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.19719282825830706
+2014-03-30 01:07:47,547 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.2910506965779925
+2014-03-30 01:07:47,547 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7543108539675494
+2014-03-30 01:07:47,547 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.5555020177891744
+2014-03-30 01:07:47,547 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.2713070887253977
+2014-03-30 01:07:47,547 [main] DEBUG test.Test1 - Init Values -0.09872275476438386 -0.09856247123096691
+2014-03-30 01:07:47,547 [main] INFO  test.Test1 - Expected -0.09856247123096691 Actual 0.2713070887253977 Diff -0.3698695599563646
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.375025803032138
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0581300286841817
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2138093774191987
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4514139674601525
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3881764775579433
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2361692964711395
+2014-03-30 01:07:47,548 [main] DEBUG test.Test1 - Init Values -0.8797954467172362 -0.7706085314170701
+2014-03-30 01:07:47,548 [main] INFO  test.Test1 - Expected -0.7706085314170701 Actual -1.2361692964711395 Diff 0.4655607650540694
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.440513463000017
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2160056063165423
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3296987583574533
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4919443532318937
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.449875909065847
+2014-03-30 01:07:47,548 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2112209539181773
+2014-03-30 01:07:47,549 [main] DEBUG test.Test1 - Init Values 1.3353886567878366 0.9724193374202956
+2014-03-30 01:07:47,549 [main] INFO  test.Test1 - Expected 0.9724193374202956 Actual 1.2112209539181773 Diff -0.23880161649788167
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4990787022840424
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3707192256936647
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4369063844668164
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.527550789511367
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5043782215255017
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1973517939865541
+2014-03-30 01:07:47,549 [main] DEBUG test.Test1 - Init Values -2.438268460320745 -0.6467566064225524
+2014-03-30 01:07:47,549 [main] INFO  test.Test1 - Expected -0.6467566064225524 Actual -1.1973517939865541 Diff 0.5505951875640017
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5100251393790822
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4011461700437056
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4573534897019034
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5342224586779538
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5146464915367195
+2014-03-30 01:07:47,549 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.0603150983563796
+2014-03-30 01:07:47,550 [main] DEBUG test.Test1 - Init Values -2.883295938915862 -0.25543414190054403
+2014-03-30 01:07:47,550 [main] INFO  test.Test1 - Expected -0.25543414190054403 Actual -1.0603150983563796 Diff 0.8048809564558356
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.486832273181983
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3399275456985984
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4150258474160242
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.520407707025169
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4935910809860018
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.32983101620256483
+2014-03-30 01:07:47,550 [main] DEBUG test.Test1 - Init Values 2.091487115187805 0.867475733616356
+2014-03-30 01:07:47,550 [main] INFO  test.Test1 - Expected 0.867475733616356 Actual -0.32983101620256483 Diff 1.197306749818921
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3754900318188301
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.073490472026881
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.215777136453282
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.449184189172033
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.383905549182457
+2014-03-30 01:07:47,550 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4691556039794662
+2014-03-30 01:07:47,551 [main] DEBUG test.Test1 - Init Values 0.8636960901834927 0.7602488486571128
+2014-03-30 01:07:47,551 [main] INFO  test.Test1 - Expected 0.7602488486571128 Actual 1.4691556039794662 Diff -0.7089067553223534
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.527069677124308
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4512982618584807
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4889911612455098
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5437842566203082
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5290219788717563
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4829141148200309
+2014-03-30 01:07:47,551 [main] DEBUG test.Test1 - Init Values 3.9067654311225617 -0.6926616268898482
+2014-03-30 01:07:47,551 [main] INFO  test.Test1 - Expected -0.6926616268898482 Actual 1.4829141148200309 Diff -2.175575741709879
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2908933391394715
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9028557854340932
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0767394540641837
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3951657332672345
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3028820704361177
+2014-03-30 01:07:47,551 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.456988557225225
+2014-03-30 01:07:47,552 [main] DEBUG test.Test1 - Init Values 0.5948123407665564 0.560353334917752
+2014-03-30 01:07:47,552 [main] INFO  test.Test1 - Expected 0.560353334917752 Actual 1.456988557225225 Diff -0.8966352223074731
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5266820337029083
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4502309282389887
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4882935216360527
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5435783708175825
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5287202164934877
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4805446617690807
+2014-03-30 01:07:47,552 [main] DEBUG test.Test1 - Init Values 3.8770597376872287 -0.670933579823029
+2014-03-30 01:07:47,552 [main] INFO  test.Test1 - Expected -0.670933579823029 Actual 1.4805446617690807 Diff -2.15147824159211
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5070581171185875
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3973657856892503
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4518066384252732
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5314633218345062
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5100191133662924
+2014-03-30 01:07:47,552 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4771453918249056
+2014-03-30 01:07:47,553 [main] DEBUG test.Test1 - Init Values 2.6821371862516745 0.44346011131915314
+2014-03-30 01:07:47,553 [main] INFO  test.Test1 - Expected 0.44346011131915314 Actual 1.4771453918249056 Diff -1.0336852805057524
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.5773887555009042
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.23300234571169703
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.3347015204574914
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.8129747368385533
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.5995202277981391
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2592947852160215
+2014-03-30 01:07:47,553 [main] DEBUG test.Test1 - Init Values 0.11153846828874237 0.11130734025479186
+2014-03-30 01:07:47,553 [main] INFO  test.Test1 - Expected 0.11130734025479186 Actual 1.2592947852160215 Diff -1.1479874449612295
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.35274048257655316
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.134860087315183
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.1961631334717508
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.5456300603013815
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.37589307563245894
+2014-03-30 01:07:47,553 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.0302880182291885
+2014-03-30 01:07:47,554 [main] DEBUG test.Test1 - Init Values 0.06402483852950258 0.06398110593813292
+2014-03-30 01:07:47,554 [main] INFO  test.Test1 - Expected 0.06398110593813292 Actual 1.0302880182291885 Diff -0.9663069122910556
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5144657209584549
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4221875558552837
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4688069915711528
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5375942069644448
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5201773042930578
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4667893190448418
+2014-03-30 01:07:47,554 [main] DEBUG test.Test1 - Init Values -3.168732772629385 0.027136787323400118
+2014-03-30 01:07:47,554 [main] INFO  test.Test1 - Expected 0.027136787323400118 Actual -1.4667893190448418 Diff 1.4939261063682419
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.508968438317658
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4078855917810376
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4589190778175376
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5343603876673573
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5152574647534647
+2014-03-30 01:07:47,554 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4642256661575965
+2014-03-30 01:07:47,555 [main] DEBUG test.Test1 - Init Values 2.887251996004162 0.2516073323973046
+2014-03-30 01:07:47,555 [main] INFO  test.Test1 - Expected 0.2516073323973046 Actual 1.4642256661575965 Diff -1.2126183337602918
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4684005882714386
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3044450174620343
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3864530906808825
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5103833503938748
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4788111486453663
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4578556741086668
+2014-03-30 01:07:47,555 [main] DEBUG test.Test1 - Init Values -1.7399787219652572 -0.9857227617791567
+2014-03-30 01:07:47,555 [main] INFO  test.Test1 - Expected -0.9857227617791567 Actual -1.4578556741086668 Diff 0.47213291232951005
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4152345448995205
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1762178055328818
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2935605060347761
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4787597475732277
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.430964473278967
+2014-03-30 01:07:47,555 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.450436275069122
+2014-03-30 01:07:47,556 [main] DEBUG test.Test1 - Init Values 1.1402785383383023 0.9087497769460646
+2014-03-30 01:07:47,556 [main] INFO  test.Test1 - Expected 0.9087497769460646 Actual 1.450436275069122 Diff -0.5416864981230574
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4640788024413147
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2936752993045453
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3788404588939063
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.507860680423456
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4749998811166525
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4555533130554266
+2014-03-30 01:07:47,556 [main] DEBUG test.Test1 - Init Values -1.670028145817395 -0.9950805618251037
+2014-03-30 01:07:47,556 [main] INFO  test.Test1 - Expected -0.9950805618251037 Actual -1.4555533130554266 Diff 0.46047275123032283
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.500240988496804
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3852994863237253
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4432845532687006
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.52925451053742
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.507505911093493
+2014-03-30 01:07:47,556 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4590095701863992
+2014-03-30 01:07:47,557 [main] DEBUG test.Test1 - Init Values -2.531954800925826 -0.5725705891948406
+2014-03-30 01:07:47,557 [main] INFO  test.Test1 - Expected -0.5725705891948406 Actual -1.4590095701863992 Diff 0.8864389809915586
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5150088071260919
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4235822936014393
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4698401183845111
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5379718031720682
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.520776488020516
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4591927418795172
+2014-03-30 01:07:47,557 [main] DEBUG test.Test1 - Init Values 3.20503812836119 -0.06340291852692011
+2014-03-30 01:07:47,557 [main] INFO  test.Test1 - Expected -0.06340291852692011 Actual 1.4591927418795172 Diff -1.5225956604064372
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4959134481340506
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3741585364774997
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.435555505207491
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5267285042210677
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5036757469984297
+2014-03-30 01:07:47,557 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4542539701264932
+2014-03-30 01:07:47,557 [main] DEBUG test.Test1 - Init Values 2.386600340285776 0.6852830706352644
+2014-03-30 01:07:47,558 [main] INFO  test.Test1 - Expected 0.6852830706352644 Actual 1.4542539701264932 Diff -0.7689708994912288
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2985496109788413
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.932877767132701
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1021163084075731
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4081961863893357
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3257608182427998
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.423946650920947
+2014-03-30 01:07:47,558 [main] DEBUG test.Test1 - Init Values 0.6415147266652133 0.5984097116287705
+2014-03-30 01:07:47,558 [main] INFO  test.Test1 - Expected 0.5984097116287705 Actual 1.423946650920947 Diff -0.8255369392921765
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.485837380224047
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3484975669800963
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4176609593768166
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5208742923931977
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4948175160221093
+2014-03-30 01:07:47,558 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4491999409214753
+2014-03-30 01:07:47,558 [main] DEBUG test.Test1 - Init Values 2.1062100073827734 0.8600576443302719
+2014-03-30 01:07:47,558 [main] INFO  test.Test1 - Expected 0.8600576443302719 Actual 1.4491999409214753 Diff -0.5891422965912034
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1807801870603616
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7418970295449393
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9305505334721981
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.334206718494325
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2187708017415115
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3959201900520755
+2014-03-30 01:07:47,559 [main] DEBUG test.Test1 - Init Values 0.4364604734975863 0.42273441112784277
+2014-03-30 01:07:47,559 [main] INFO  test.Test1 - Expected 0.42273441112784277 Actual 1.3959201900520755 Diff -0.9731857789242326
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2086317968293083
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7834855607657134
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9699977132896919
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3528945158085892
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.245766928283917
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.396333027126706
+2014-03-30 01:07:47,559 [main] DEBUG test.Test1 - Init Values 0.4752054007528468 0.4575210989247605
+2014-03-30 01:07:47,559 [main] INFO  test.Test1 - Expected 0.4575210989247605 Actual 1.396333027126706 Diff -0.9388119282019456
+2014-03-30 01:07:47,559 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5144423848207824
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4226503749706767
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.469275876986573
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5379478426195567
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.520873812626612
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4442591964591018
+2014-03-30 01:07:47,560 [main] DEBUG test.Test1 - Init Values -3.201610585803202 0.05998190641490937
+2014-03-30 01:07:47,560 [main] INFO  test.Test1 - Expected 0.05998190641490937 Actual -1.4442591964591018 Diff 1.5042411028740112
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4727095194928355
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.316148698419235
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.394971263512228
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5135675765613876
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4839157858647487
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4339058282388202
+2014-03-30 01:07:47,560 [main] DEBUG test.Test1 - Init Values -1.8363025142943554 -0.9649598020486732
+2014-03-30 01:07:47,560 [main] INFO  test.Test1 - Expected -0.9649598020486732 Actual -1.4339058282388202 Diff 0.468946026190147
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4209625240394375
+2014-03-30 01:07:47,560 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1908814208395437
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3047332895274502
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4831536356225659
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4380084058808176
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4240428767827757
+2014-03-30 01:07:47,561 [main] DEBUG test.Test1 - Init Values -1.1972883666821765 -0.9310530791926157
+2014-03-30 01:07:47,561 [main] INFO  test.Test1 - Expected -0.9310530791926157 Actual -1.4240428767827757 Diff 0.49298979759016004
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5238224938719243
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4471092875569802
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.486159130752391
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5434572753751576
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5292562755327608
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4376330236234238
+2014-03-30 01:07:47,561 [main] DEBUG test.Test1 - Init Values 3.8470545311014126 -0.6483855316486503
+2014-03-30 01:07:47,561 [main] INFO  test.Test1 - Expected -0.6483855316486503 Actual 1.4376330236234238 Diff -2.0860185552720742
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5252808150313024
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4509377614744885
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4888001468866177
+2014-03-30 01:07:47,561 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.544322747547593
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5305773716511561
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4300638951664653
+2014-03-30 01:07:47,562 [main] DEBUG test.Test1 - Init Values -3.972796980055908 0.7387436065040909
+2014-03-30 01:07:47,562 [main] INFO  test.Test1 - Expected 0.7387436065040909 Actual -1.4300638951664653 Diff 2.168807501670556
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4929006964200717
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3673157998594918
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.430928390670359
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5254797483310696
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5020047585511864
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4144724414224894
+2014-03-30 01:07:47,562 [main] DEBUG test.Test1 - Init Values 2.3197700693374417 0.7323880203028698
+2014-03-30 01:07:47,562 [main] INFO  test.Test1 - Expected 0.7323880203028698 Actual 1.4144724414224894 Diff -0.6820844211196196
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.253364397188828
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.855752551294687
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0359320270270507
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.38227066107242
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2886797427184988
+2014-03-30 01:07:47,562 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3565312777515761
+2014-03-30 01:07:47,563 [main] DEBUG test.Test1 - Init Values 0.5513574936313912 0.5238440435834643
+2014-03-30 01:07:47,563 [main] INFO  test.Test1 - Expected 0.5238440435834643 Actual 1.3565312777515761 Diff -0.8326872341681119
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5165439147556792
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4285951717082728
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4733959657678977
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5393923971477521
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5231629840239687
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4056427514357708
+2014-03-30 01:07:47,563 [main] DEBUG test.Test1 - Init Values -3.3480740167536336 0.20501728089435514
+2014-03-30 01:07:47,563 [main] INFO  test.Test1 - Expected 0.20501728089435514 Actual -1.4056427514357708 Diff 1.610660032330126
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5176447154321853
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.431514526487681
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4754058107349652
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.540055555755184
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.524179152844652
+2014-03-30 01:07:47,563 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3915408941995764
+2014-03-30 01:07:47,563 [main] DEBUG test.Test1 - Init Values 3.420235226493272 -0.2750508316639547
+2014-03-30 01:07:47,563 [main] INFO  test.Test1 - Expected -0.2750508316639547 Actual 1.3915408941995764 Diff -1.666591725863531
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1937446406974694
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.764472450536246
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9522053773736368
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3459975333120815
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2369736893202852
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.265800890528373
+2014-03-30 01:07:47,564 [main] DEBUG test.Test1 - Init Values 0.45993113641853434 0.4438864005287639
+2014-03-30 01:07:47,564 [main] INFO  test.Test1 - Expected 0.4438864005287639 Actual 1.265800890528373 Diff -0.8219144899996091
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.508270204560509
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4086300896306658
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4594065609166638
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5349761974028462
+2014-03-30 01:07:47,564 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5166453969482558
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.340161520507368
+2014-03-30 01:07:47,565 [main] DEBUG test.Test1 - Init Values 2.933557614284587 0.20653770633801025
+2014-03-30 01:07:47,565 [main] INFO  test.Test1 - Expected 0.20653770633801025 Actual 1.340161520507368 Diff -1.1336238141693578
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4320942219642716
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2213997008358164
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3265811257014581
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4911639613371572
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4507173959827562
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2723644664408278
+2014-03-30 01:07:47,565 [main] DEBUG test.Test1 - Init Values 1.3172666113940048 0.9680331221779741
+2014-03-30 01:07:47,565 [main] INFO  test.Test1 - Expected 0.9680331221779741 Actual 1.2723644664408278 Diff -0.3043313442628537
+2014-03-30 01:07:47,565 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4501788163222693
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2647761264791337
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.357901802197689
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5017059604583365
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4665830633566463
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2564330487086997
+2014-03-30 01:07:47,566 [main] DEBUG test.Test1 - Init Values -1.5189674176400798 -0.9986571827219449
+2014-03-30 01:07:47,566 [main] INFO  test.Test1 - Expected -0.9986571827219449 Actual -1.2564330487086997 Diff 0.2577758659867547
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5064512587162062
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.404566150495111
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4564621331494365
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5340628255986664
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5153249521833532
+2014-03-30 01:07:47,566 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2554894271242851
+2014-03-30 01:07:47,567 [main] DEBUG test.Test1 - Init Values -2.8600884862976432 -0.2778009235453245
+2014-03-30 01:07:47,567 [main] INFO  test.Test1 - Expected -0.2778009235453245 Actual -1.2554894271242851 Diff 0.9776885035789606
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5246290784961372
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4513868991711918
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4887741352514532
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5445066342186922
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5311103089046836
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1243873503339734
+2014-03-30 01:07:47,567 [main] DEBUG test.Test1 - Init Values -3.9967541378978337 0.7546768752875528
+2014-03-30 01:07:47,567 [main] INFO  test.Test1 - Expected 0.7546768752875528 Actual -1.1243873503339734 Diff 1.8790642256215262
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3756540210906305
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.101285354287905
+2014-03-30 01:07:47,567 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2343601075261201
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4593571607820297
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4037034080575423
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.0841770881659727
+2014-03-30 01:07:47,568 [main] DEBUG test.Test1 - Init Values -0.9388807952811176 -0.8068975012208276
+2014-03-30 01:07:47,568 [main] INFO  test.Test1 - Expected -0.8068975012208276 Actual 1.0841770881659727 Diff -1.8910745893868004
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4633915084031024
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2916164754337378
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3782942186969682
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5081603160624362
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4757696167956966
+2014-03-30 01:07:47,568 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1136521314882835
+2014-03-30 01:07:47,568 [main] DEBUG test.Test1 - Init Values 1.6773750830011434 0.9943258584772281
+2014-03-30 01:07:47,569 [main] INFO  test.Test1 - Expected 0.9943258584772281 Actual 1.1136521314882835 Diff -0.11932627301105536
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.493221124599375
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.367229636642388
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4312779385869687
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5256484022710695
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5022637864749668
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.0823340357962572
+2014-03-30 01:07:47,569 [main] DEBUG test.Test1 - Init Values 2.3284735106276804 0.7264342917561541
+2014-03-30 01:07:47,569 [main] INFO  test.Test1 - Expected 0.7264342917561541 Actual 1.0823340357962572 Diff -0.35589974404010305
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4967199202083337
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.37682713882054
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4377405352745645
+2014-03-30 01:07:47,569 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5277753881507954
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.505531214430048
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.8081672318905526
+2014-03-30 01:07:47,570 [main] DEBUG test.Test1 - Init Values 2.443483991076718 0.6427699611660168
+2014-03-30 01:07:47,570 [main] INFO  test.Test1 - Expected 0.6427699611660168 Actual 0.8081672318905526 Diff -0.1653972707245358
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4450137193185946
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2488546865301116
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3469465656065378
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4977176265877707
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.460171602469387
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.1196102736905255
+2014-03-30 01:07:47,570 [main] DEBUG test.Test1 - Init Values -1.4366321275532945 -0.9910134757720265
+2014-03-30 01:07:47,570 [main] INFO  test.Test1 - Expected -0.9910134757720265 Actual -0.1196102736905255 Diff -0.871403202081501
+2014-03-30 01:07:47,570 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1348308595448133
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.6816071209720301
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.8664715910246212
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2976768248273405
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1652926897589129
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4068979616762698
+2014-03-30 01:07:47,571 [main] DEBUG test.Test1 - Init Values -0.37587780695285655 -0.36708919392661815
+2014-03-30 01:07:47,571 [main] INFO  test.Test1 - Expected -0.36708919392661815 Actual -1.4068979616762698 Diff 1.0398087677496517
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4617133495627834
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2892470609732543
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3739798256286642
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5052728155410797
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4706791548444056
+2014-03-30 01:07:47,571 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4542101334734625
+2014-03-30 01:07:47,572 [main] DEBUG test.Test1 - Init Values 1.60440588485565 0.9994352519682105
+2014-03-30 01:07:47,572 [main] INFO  test.Test1 - Expected 0.9994352519682105 Actual 1.4542101334734625 Diff -0.454774881505252
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.388381077300005
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.117475625896246
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.246800473339078
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4607450413636949
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4032338589990396
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4439771597420747
+2014-03-30 01:07:47,572 [main] DEBUG test.Test1 - Init Values 0.9527457095808671 0.8150095694786367
+2014-03-30 01:07:47,572 [main] INFO  test.Test1 - Expected 0.8150095694786367 Actual 1.4439771597420747 Diff -0.6289675902634381
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5218850416911849
+2014-03-30 01:07:47,572 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4422517192805333
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4819341724975577
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5415005037971186
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.525975943350983
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4589954702668442
+2014-03-30 01:07:47,573 [main] DEBUG test.Test1 - Init Values 3.5924576804125907 -0.43574428217401073
+2014-03-30 01:07:47,573 [main] INFO  test.Test1 - Expected -0.43574428217401073 Actual 1.4589954702668442 Diff -1.894739752440855
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7108227499654451
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.3151945901476777
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.4418806083554469
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9633928569507008
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.754552583270723
+2014-03-30 01:07:47,573 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2453101661579116
+2014-03-30 01:07:47,574 [main] DEBUG test.Test1 - Init Values 0.15145831493950102 0.150879912693509
+2014-03-30 01:07:47,574 [main] INFO  test.Test1 - Expected 0.150879912693509 Actual 1.2453101661579116 Diff -1.0944302534644026
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7010547359353881
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.31369164810711975
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.43935528659656214
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9630649757667354
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.757130046662932
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2021739035815506
+2014-03-30 01:07:47,574 [main] DEBUG test.Test1 - Init Values 0.1511943086670966 0.15061892348375883
+2014-03-30 01:07:47,574 [main] INFO  test.Test1 - Expected 0.15061892348375883 Actual 1.2021739035815506 Diff -1.0515549800977917
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4955007236436588
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3805023342878169
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.43837823792869
+2014-03-30 01:07:47,574 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5275813858284366
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5055683225187877
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4332878781225502
+2014-03-30 01:07:47,575 [main] DEBUG test.Test1 - Init Values -2.428648859710937 -0.6540634044772484
+2014-03-30 01:07:47,575 [main] INFO  test.Test1 - Expected -0.6540634044772484 Actual -1.4332878781225502 Diff 0.7792244736453018
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.11048816833286478
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.043426409728951086
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.06276115071776
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.191251816692913
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.12749209590200514
+2014-03-30 01:07:47,575 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.21832656420264918
+2014-03-30 01:07:47,575 [main] DEBUG test.Test1 - Init Values 0.020333378421768522 0.020331977324128014
+2014-03-30 01:07:47,575 [main] INFO  test.Test1 - Expected 0.020331977324128014 Actual 0.21832656420264918 Diff -0.19799458687852117
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4624897979104374
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3016766571266218
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3822553625703624
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.509066920070189
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4779107308277706
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4218329670812127
+2014-03-30 01:07:47,576 [main] DEBUG test.Test1 - Init Values -1.69778865203107 -0.9919473055818803
+2014-03-30 01:07:47,576 [main] INFO  test.Test1 - Expected -0.9919473055818803 Actual -1.4218329670812127 Diff 0.4298856614993324
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3186676905846388
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9920632041831777
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1462932647434536
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.425445888445068
+2014-03-30 01:07:47,576 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3536744335547342
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3915409427915504
+2014-03-30 01:07:47,577 [main] DEBUG test.Test1 - Init Values -0.7168566878622054 -0.6570182582961325
+2014-03-30 01:07:47,577 [main] INFO  test.Test1 - Expected -0.6570182582961325 Actual -1.3915409427915504 Diff 0.7345226844954179
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.42657133248973
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2182353222421487
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3215541309143861
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4886244497845582
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4473805276430118
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4081689234530248
+2014-03-30 01:07:47,577 [main] DEBUG test.Test1 - Init Values -1.2740528419574124 -0.956293787843272
+2014-03-30 01:07:47,577 [main] INFO  test.Test1 - Expected -0.956293787843272 Actual -1.4081689234530248 Diff 0.4518751356097528
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.503914540986434
+2014-03-30 01:07:47,577 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4027550934629711
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4539758750230916
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5328545881524447
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.51369242694717
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4190534039666818
+2014-03-30 01:07:47,578 [main] DEBUG test.Test1 - Init Values 2.764104507786686 0.3685866315592421
+2014-03-30 01:07:47,578 [main] INFO  test.Test1 - Expected 0.3685866315592421 Actual 1.4190534039666818 Diff -1.0504667724074397
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0992906372420006
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.6590810584085524
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.8418435881874808
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2896631394788374
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1606316453569383
+2014-03-30 01:07:47,578 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3031344368137348
+2014-03-30 01:07:47,578 [main] DEBUG test.Test1 - Init Values -0.36333022028118744 -0.3553890166739526
+2014-03-30 01:07:47,579 [main] INFO  test.Test1 - Expected -0.3553890166739526 Actual -1.3031344368137348 Diff 0.9477454201397821
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4475501845615923
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2689905954840948
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3584726666237381
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.501430396168773
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4668364998465506
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3875509816113905
+2014-03-30 01:07:47,579 [main] DEBUG test.Test1 - Init Values -1.5095366760528126 -0.9981242143176474
+2014-03-30 01:07:47,579 [main] INFO  test.Test1 - Expected -0.9981242143176474 Actual -1.3875509816113905 Diff 0.38942676729374304
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.471709685682467
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3260510410935018
+2014-03-30 01:07:47,579 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3995436343342194
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5151287256294552
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4873192567023197
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3885084370893368
+2014-03-30 01:07:47,580 [main] DEBUG test.Test1 - Init Values -1.8820294081262174 -0.9519566838649437
+2014-03-30 01:07:47,580 [main] INFO  test.Test1 - Expected -0.9519566838649437 Actual -1.3885084370893368 Diff 0.4365517532243931
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4736205702548983
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3306931252555785
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4028529991407381
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.516235203535441
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.488985147356895
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.383891920317551
+2014-03-30 01:07:47,580 [main] DEBUG test.Test1 - Init Values -1.92023706751709 -0.939564334713302
+2014-03-30 01:07:47,580 [main] INFO  test.Test1 - Expected -0.939564334713302 Actual -1.383891920317551 Diff 0.444327585604249
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5085809987103571
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4156537974212142
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4629072500539793
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5359278686885516
+2014-03-30 01:07:47,580 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.51848204474162
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.385970739834853
+2014-03-30 01:07:47,581 [main] DEBUG test.Test1 - Init Values 3.0064339178052606 0.13474760081125162
+2014-03-30 01:07:47,581 [main] INFO  test.Test1 - Expected 0.13474760081125162 Actual 1.385970739834853 Diff -1.2512231390236015
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4905500399300524
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3717098764553006
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4319563827168744
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5258390221454614
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.503384787598249
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3642713927057504
+2014-03-30 01:07:47,581 [main] DEBUG test.Test1 - Init Values -2.331048185092735 -0.7246624771711127
+2014-03-30 01:07:47,581 [main] INFO  test.Test1 - Expected -0.7246624771711127 Actual -1.3642713927057504 Diff 0.6396089155346377
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.6387139789408864
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.28792335836378485
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.4040194059138262
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9255161584651048
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7246667119253482
+2014-03-30 01:07:47,581 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.597349340491927
+2014-03-30 01:07:47,581 [main] DEBUG test.Test1 - Init Values 0.1393030494257772 0.1388529492021002
+2014-03-30 01:07:47,582 [main] INFO  test.Test1 - Expected 0.1388529492021002 Actual 0.597349340491927 Diff -0.4584963912898268
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4018855070793261
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.185322524789177
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2951923898712736
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4810212580904947
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4387323351648629
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2065438853095785
+2014-03-30 01:07:47,582 [main] DEBUG test.Test1 - Init Values 1.1598810944634037 0.9167556186097281
+2014-03-30 01:07:47,582 [main] INFO  test.Test1 - Expected 0.9167556186097281 Actual 1.2065438853095785 Diff -0.28978826669985036
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4217472421140438
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2283804514899448
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3271641342988054
+2014-03-30 01:07:47,582 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4918885764187346
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4546977937326868
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1716782918091593
+2014-03-30 01:07:47,583 [main] DEBUG test.Test1 - Init Values -1.3203040960695995 -0.9687905245058377
+2014-03-30 01:07:47,583 [main] INFO  test.Test1 - Expected -0.9687905245058377 Actual -1.1716782918091593 Diff 0.2028877673033216
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4858256385963973
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3716482869544797
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4309117165610843
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5260546988686075
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5048847164748493
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1703319073831344
+2014-03-30 01:07:47,583 [main] DEBUG test.Test1 - Init Values 2.331650279769632 0.7242474400068706
+2014-03-30 01:07:47,583 [main] INFO  test.Test1 - Expected 0.7242474400068706 Actual 1.1703319073831344 Diff -0.44608446737626384
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4996411550329258
+2014-03-30 01:07:47,583 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4039122070696048
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4537196364549811
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.533433285696956
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5157694456555324
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.0358907210646715
+2014-03-30 01:07:47,584 [main] DEBUG test.Test1 - Init Values 2.7924154005892072 0.34212482540589767
+2014-03-30 01:07:47,584 [main] INFO  test.Test1 - Expected 0.34212482540589767 Actual 1.0358907210646715 Diff -0.6937658956587738
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5120923658776073
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4337726661466688
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4745467497395057
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5401354032002728
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5256847951702788
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.26008489171929705
+2014-03-30 01:07:47,584 [main] DEBUG test.Test1 - Init Values 3.402544401083352 -0.2580001945580214
+2014-03-30 01:07:47,584 [main] INFO  test.Test1 - Expected -0.2580001945580214 Actual -0.26008489171929705 Diff 0.002084697161275628
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5142243609968051
+2014-03-30 01:07:47,584 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.438692486172787
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4780257806147743
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.541249389059384
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5273222258237262
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.23483163264411502
+2014-03-30 01:07:47,585 [main] DEBUG test.Test1 - Init Values 3.53091407657989 -0.37956070561499744
+2014-03-30 01:07:47,585 [main] INFO  test.Test1 - Expected -0.37956070561499744 Actual -0.23483163264411502 Diff -0.14472907297088242
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7552931093019313
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.3833881749086976
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.521685430396309
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0659182187904321
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.88827446478094
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1818932967581972
+2014-03-30 01:07:47,585 [main] DEBUG test.Test1 - Init Values 0.18880330837152126 0.18768360378004623
+2014-03-30 01:07:47,585 [main] INFO  test.Test1 - Expected 0.18768360378004623 Actual -1.1818932967581972 Diff 1.3695769005382434
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4794678165274822
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3510868935532736
+2014-03-30 01:07:47,585 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4165524493816382
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5213013863086728
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4972742419592062
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.6357457548892012
+2014-03-30 01:07:47,586 [main] DEBUG test.Test1 - Init Values 2.11240117663276 0.8568824661226057
+2014-03-30 01:07:47,586 [main] INFO  test.Test1 - Expected 0.8568824661226057 Actual -0.6357457548892012 Diff 1.492628221011807
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.469479313830652
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.328044003501826
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3977172032979737
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5138924322224507
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4857059253680798
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.464784300092462
+2014-03-30 01:07:47,586 [main] DEBUG test.Test1 - Init Values -1.8384618684901906 -0.964390943090029
+2014-03-30 01:07:47,586 [main] INFO  test.Test1 - Expected -0.964390943090029 Actual -1.464784300092462 Diff 0.500393357002433
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4571897169840442
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2997172935605867
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3770634315603516
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5069651810591103
+2014-03-30 01:07:47,586 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4753847365987458
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4627170447563254
+2014-03-30 01:07:47,587 [main] DEBUG test.Test1 - Init Values 1.6384763971264338 0.9977105781490825
+2014-03-30 01:07:47,587 [main] INFO  test.Test1 - Expected 0.9977105781490825 Actual 1.4627170447563254 Diff -0.4650064666072429
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4699841328181555
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3292149114463578
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3985950677748331
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5142026530928276
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4861769187818061
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.463551321922673
+2014-03-30 01:07:47,587 [main] DEBUG test.Test1 - Init Values 1.8485389433732626 0.96167682977803
+2014-03-30 01:07:47,587 [main] INFO  test.Test1 - Expected 0.96167682977803 Actual 1.463551321922673 Diff -0.501874492144643
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3131241875040651
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0001319901698977
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1453899373263328
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4242900192305703
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.353368918725794
+2014-03-30 01:07:47,587 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.442002108213755
+2014-03-30 01:07:47,588 [main] DEBUG test.Test1 - Init Values -0.7097063440149505 -0.6516110454159558
+2014-03-30 01:07:47,588 [main] INFO  test.Test1 - Expected -0.6516110454159558 Actual -1.442002108213755 Diff 0.7903910627977992
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.07080908082400855
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.029118413527941044
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.04125303095010096
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.12615059341090007
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.08453371777554211
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.22420066114109038
+2014-03-30 01:07:47,588 [main] DEBUG test.Test1 - Init Values 0.013281417836897624 0.013281027375379029
+2014-03-30 01:07:47,588 [main] INFO  test.Test1 - Expected 0.013281027375379029 Actual 0.22420066114109038 Diff -0.21091963376571135
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5122720514205128
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4296847643868302
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4708657546575905
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5382280635146806
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5221427844277913
+2014-03-30 01:07:47,588 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4650448432996521
+2014-03-30 01:07:47,588 [main] DEBUG test.Test1 - Init Values 3.2128489912190448 -0.07119605266822396
+2014-03-30 01:07:47,589 [main] INFO  test.Test1 - Expected -0.07119605266822396 Actual 1.4650448432996521 Diff -1.5362408959678762
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7179245828912374
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.345770046316425
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.47198095045590943
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.004037381569683
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.8104782569599709
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2449388768275391
+2014-03-30 01:07:47,589 [main] DEBUG test.Test1 - Init Values -0.16447505140499175 -0.16373448945294292
+2014-03-30 01:07:47,589 [main] INFO  test.Test1 - Expected -0.16373448945294292 Actual -1.2449388768275391 Diff 1.0812043873745962
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.492376111300937
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3853816455240295
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.439086391736653
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5280811913634822
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5073506593260027
+2014-03-30 01:07:47,589 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4534014921412322
+2014-03-30 01:07:47,589 [main] DEBUG test.Test1 - Init Values -2.446503705408638 -0.6404537539775668
+2014-03-30 01:07:47,589 [main] INFO  test.Test1 - Expected -0.6404537539775668 Actual -1.4534014921412322 Diff 0.8129477381636654
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5021648180230616
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4081766778076628
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.455443102596558
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5334386758565612
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5153026144552344
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.452985687763606
+2014-03-30 01:07:47,590 [main] DEBUG test.Test1 - Init Values -2.797731500091216 -0.3371247176770073
+2014-03-30 01:07:47,590 [main] INFO  test.Test1 - Expected -0.3371247176770073 Actual -1.452985687763606 Diff 1.1158609700865987
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5091468418580618
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4245263210867918
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4671396892157833
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5372604126939107
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.52097856980712
+2014-03-30 01:07:47,590 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4515026515187877
+2014-03-30 01:07:47,590 [main] DEBUG test.Test1 - Init Values -3.116804188253094 -0.02478592679484978
+2014-03-30 01:07:47,590 [main] INFO  test.Test1 - Expected -0.02478592679484978 Actual -1.4515026515187877 Diff 1.4267167247239378
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5084925701917502
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4230068596825751
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4660677228174923
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.536920605418835
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.520479392601549
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4481387245291226
+2014-03-30 01:07:47,591 [main] DEBUG test.Test1 - Init Values -3.0854720200121957 -0.05609117932178223
+2014-03-30 01:07:47,591 [main] INFO  test.Test1 - Expected -0.05609117932178223 Actual -1.4481387245291226 Diff 1.3920475452073404
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5086363251049129
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4233613861019874
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4663326927205818
+2014-03-30 01:07:47,591 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5370162873473872
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.520626750716018
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4445858785671255
+2014-03-30 01:07:47,592 [main] DEBUG test.Test1 - Init Values -3.0941716335699896 -0.047403248990111245
+2014-03-30 01:07:47,592 [main] INFO  test.Test1 - Expected -0.047403248990111245 Actual -1.4445858785671255 Diff 1.3971826295770142
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4885500999657775
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3766105481584345
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4328543249334864
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5260944917103991
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5044362805218627
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4375987297449226
+2014-03-30 01:07:47,592 [main] DEBUG test.Test1 - Init Values -2.3374803239232786 -0.7202151048064223
+2014-03-30 01:07:47,592 [main] INFO  test.Test1 - Expected -0.7202151048064223 Actual -1.4375987297449226 Diff 0.7173836249385004
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.430115816356431
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2450124746605553
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3367196583690801
+2014-03-30 01:07:47,592 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4941308602076615
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4571724127277423
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4256147570313007
+2014-03-30 01:07:47,593 [main] DEBUG test.Test1 - Init Values -1.3611485333585795 -0.9781042750055162
+2014-03-30 01:07:47,593 [main] INFO  test.Test1 - Expected -0.9781042750055162 Actual -1.4256147570313007 Diff 0.4475104820257845
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4644907904876923
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3215847972281445
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.393067109503073
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.513009622003188
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.485074518158813
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4295184618562686
+2014-03-30 01:07:47,593 [main] DEBUG test.Test1 - Init Values 1.8073353790663989 0.9721548321600304
+2014-03-30 01:07:47,593 [main] INFO  test.Test1 - Expected 0.9721548321600304 Actual 1.4295184618562686 Diff -0.4573636296962382
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1504612662117166
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7535040373277145
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.925847487230969
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3331409204310827
+2014-03-30 01:07:47,593 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2254304503515536
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3538290498773264
+2014-03-30 01:07:47,594 [main] DEBUG test.Test1 - Init Values -0.4316302675949544 -0.4183521052056823
+2014-03-30 01:07:47,594 [main] INFO  test.Test1 - Expected -0.4183521052056823 Actual -1.3538290498773264 Diff 0.9354769446716442
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5042951765029557
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4139047560604692
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4596066374408758
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5349500869363957
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5176575855440577
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4271679542829903
+2014-03-30 01:07:47,594 [main] DEBUG test.Test1 - Init Values 2.9148561243479367 0.22479878336039413
+2014-03-30 01:07:47,594 [main] INFO  test.Test1 - Expected 0.22479878336039413 Actual 1.4271679542829903 Diff -1.202369170922596
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1911917262668437
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.812416044083173
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9814586854849161
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3593221000334235
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2625733009035556
+2014-03-30 01:07:47,594 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3440642654296489
+2014-03-30 01:07:47,595 [main] DEBUG test.Test1 - Init Values -0.4868979346989173 -0.4678865740464165
+2014-03-30 01:07:47,595 [main] INFO  test.Test1 - Expected -0.4678865740464165 Actual -1.3440642654296489 Diff 0.8761776913832324
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3225552018518358
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0307141031960831
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1704722029513333
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4360505142998794
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3726578480297924
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3707943143087402
+2014-03-30 01:07:47,595 [main] DEBUG test.Test1 - Init Values -0.7708830092737653 -0.6967688889338026
+2014-03-30 01:07:47,595 [main] INFO  test.Test1 - Expected -0.6967688889338026 Actual -1.3707943143087402 Diff 0.6740254253749376
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.517314249933173
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4450278112607755
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.481791947852955
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.542244861409958
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5285486412915819
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4086541613836334
+2014-03-30 01:07:47,595 [main] DEBUG test.Test1 - Init Values -3.6589750940466175 0.49460686984673924
+2014-03-30 01:07:47,595 [main] INFO  test.Test1 - Expected 0.49460686984673924 Actual -1.4086541613836334 Diff 1.9032610312303726
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9902279033470818
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.5734449519824173
+2014-03-30 01:07:47,595 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7410643684375582
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2344898876091124
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0933763790631434
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1592886083816887
+2014-03-30 01:07:47,596 [main] DEBUG test.Test1 - Init Values 0.29890672970390053 0.2944755892542987
+2014-03-30 01:07:47,596 [main] INFO  test.Test1 - Expected 0.2944755892542987 Actual 1.1592886083816887 Diff -0.86481301912739
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3603483005437869
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.112322434309352
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2348584807841547
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.460301638160767
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4090208145189
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2996673013240438
+2014-03-30 01:07:47,596 [main] DEBUG test.Test1 - Init Values -0.9407415824539695 -0.8079952547598777
+2014-03-30 01:07:47,596 [main] INFO  test.Test1 - Expected -0.8079952547598777 Actual -1.2996673013240438 Diff 0.4916720465641662
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4207422695640113
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2354329892643348
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.328986800169768
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4926638477562237
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4562032498193263
+2014-03-30 01:07:47,596 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3028893342366892
+2014-03-30 01:07:47,596 [main] DEBUG test.Test1 - Init Values -1.3329730946341414 -0.9718530966226145
+2014-03-30 01:07:47,597 [main] INFO  test.Test1 - Expected -0.9718530966226145 Actual -1.3028893342366892 Diff 0.33103623761407464
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3894270804023958
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1712376593161278
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.280385085349331
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.476251221231886
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4323210863295146
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2712019732781847
+2014-03-30 01:07:47,597 [main] DEBUG test.Test1 - Init Values 1.1004753636139633 0.8914228824515615
+2014-03-30 01:07:47,597 [main] INFO  test.Test1 - Expected 0.8914228824515615 Actual 1.2712019732781847 Diff -0.3797790908266232
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.03516926780118441
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.01530923498034875
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.02162303914634198
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.06810137065693464
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.046398624193910984
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.07004040211670078
+2014-03-30 01:07:47,597 [main] DEBUG test.Test1 - Init Values -0.007117142404151622 -0.007117082319352118
+2014-03-30 01:07:47,597 [main] INFO  test.Test1 - Expected -0.007117082319352118 Actual 0.07004040211670078 Diff -0.07715748443605289
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.490993771165748
+2014-03-30 01:07:47,597 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.388858920640898
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4412928716839675
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5295160449556782
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5101782884246902
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2939441474222082
+2014-03-30 01:07:47,598 [main] DEBUG test.Test1 - Init Values 2.5266932716408785 0.5768763372125683
+2014-03-30 01:07:47,598 [main] INFO  test.Test1 - Expected 0.5768763372125683 Actual 1.2939441474222082 Diff -0.7170678102096399
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5084760192273612
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4284419708844591
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4696541845506546
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5386354476150204
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5235743115230052
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2518080520176869
+2014-03-30 01:07:47,598 [main] DEBUG test.Test1 - Init Values -3.2436663963533725 0.10189658319321948
+2014-03-30 01:07:47,598 [main] INFO  test.Test1 - Expected 0.10189658319321948 Actual -1.2518080520176869 Diff 1.3537046352109063
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1461903900408508
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.768445684909935
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9380590640673524
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3425378594873865
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2421694456037908
+2014-03-30 01:07:47,598 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.1597071816976656
+2014-03-30 01:07:47,599 [main] DEBUG test.Test1 - Init Values 0.4491514565128627 0.4342013090854605
+2014-03-30 01:07:47,599 [main] INFO  test.Test1 - Expected 0.4342013090854605 Actual 0.1597071816976656 Diff 0.2744941273877949
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4590150786959977
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3101058024865806
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.38507670881239
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5107418013561285
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4819942536515982
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2904722935682724
+2014-03-30 01:07:47,599 [main] DEBUG test.Test1 - Init Values -1.7381788854996651 -0.9860242151526347
+2014-03-30 01:07:47,599 [main] INFO  test.Test1 - Expected -0.9860242151526347 Actual -1.2904722935682724 Diff 0.3044480784156377
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4778568983671758
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.352999481119863
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.416137493428843
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.520960448469211
+2014-03-30 01:07:47,599 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4970885303259203
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.279158098299129
+2014-03-30 01:07:47,600 [main] DEBUG test.Test1 - Init Values 2.0952886589641366 0.8655782798223353
+2014-03-30 01:07:47,600 [main] INFO  test.Test1 - Expected 0.8655782798223353 Actual 1.279158098299129 Diff -0.4135798184767938
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.163142895744352
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7734771492536758
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9456625910759049
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3439642961318041
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2416224393609605
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.987293833698563
+2014-03-30 01:07:47,600 [main] DEBUG test.Test1 - Init Values -0.45277339318242227 -0.437461151951372
+2014-03-30 01:07:47,600 [main] INFO  test.Test1 - Expected -0.437461151951372 Actual -0.987293833698563 Diff 0.549832681747191
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4968284495641218
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4010249309435123
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.449911422844483
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5321343403604648
+2014-03-30 01:07:47,600 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5139385521901843
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.037311783669701
+2014-03-30 01:07:47,601 [main] DEBUG test.Test1 - Init Values 2.6985498574465705 0.4286904638874756
+2014-03-30 01:07:47,601 [main] INFO  test.Test1 - Expected 0.4286904638874756 Actual 1.037311783669701 Diff -0.6086213197822254
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.8417331509844148
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.45321525077870256
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.6010578916087562
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1362400263105916
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9720659038318028
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.9813336146283538
+2014-03-30 01:07:47,601 [main] DEBUG test.Test1 - Init Values -0.22484667656634816 -0.22295690073033106
+2014-03-30 01:07:47,601 [main] INFO  test.Test1 - Expected -0.22295690073033106 Actual 0.9813336146283538 Diff -1.204290515358685
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5235924084555845
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4542481199202917
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.488878440038902
+2014-03-30 01:07:47,601 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5443809368530266
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.531238867547939
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1652984177304362
+2014-03-30 01:07:47,602 [main] DEBUG test.Test1 - Init Values -3.9662442739247368 0.7343113422275138
+2014-03-30 01:07:47,602 [main] INFO  test.Test1 - Expected 0.7343113422275138 Actual -1.1652984177304362 Diff 1.89960975995795
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4910848887932548
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3770574938545885
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4334803957287556
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5263598708310693
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5043843529902714
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.8168365640082008
+2014-03-30 01:07:47,602 [main] DEBUG test.Test1 - Init Values -2.3561120349323943 -0.7071650834561736
+2014-03-30 01:07:47,602 [main] INFO  test.Test1 - Expected -0.7071650834561736 Actual 0.8168365640082008 Diff -1.5240016474643743
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4833737425799192
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3567263959079061
+2014-03-30 01:07:47,602 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4187443063924916
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5210089837088403
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4960264794701128
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4198813393268173
+2014-03-30 01:07:47,603 [main] DEBUG test.Test1 - Init Values 2.104022262739017 0.8611717656997857
+2014-03-30 01:07:47,603 [main] INFO  test.Test1 - Expected 0.8611717656997857 Actual 1.4198813393268173 Diff -0.5587095736270316
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.523868059569512
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.454852347209222
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4888894844621055
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.54411397600286
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5306996040071439
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4234425087660774
+2014-03-30 01:07:47,603 [main] DEBUG test.Test1 - Init Values 3.9282128599960506 -0.7079703678771819
+2014-03-30 01:07:47,603 [main] INFO  test.Test1 - Expected -0.7079703678771819 Actual 1.4234425087660774 Diff -2.1314128766432594
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4771324683187603
+2014-03-30 01:07:47,603 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3420086558148496
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4081094558751972
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.517503258294973
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4907979532733187
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4027351128676764
+2014-03-30 01:07:47,604 [main] DEBUG test.Test1 - Init Values 1.965294423807606 0.9231895844800405
+2014-03-30 01:07:47,604 [main] INFO  test.Test1 - Expected 0.9231895844800405 Actual 1.4027351128676764 Diff -0.47954552838763587
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1911134907488259
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7909642759200113
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9620356532962301
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.348056559406767
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2427340442941412
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.322352291087626
+2014-03-30 01:07:47,604 [main] DEBUG test.Test1 - Init Values 0.46284777131487864 0.4464980559512784
+2014-03-30 01:07:47,604 [main] INFO  test.Test1 - Expected 0.4464980559512784 Actual 1.322352291087626 Diff -0.8758542351363476
+2014-03-30 01:07:47,604 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5170502906437215
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.438913854828419
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4774862226088632
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5404699525456398
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.525322831855212
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3934008968326754
+2014-03-30 01:07:47,605 [main] DEBUG test.Test1 - Init Values 3.454842887954392 -0.3081523269671613
+2014-03-30 01:07:47,605 [main] INFO  test.Test1 - Expected -0.3081523269671613 Actual 1.3934008968326754 Diff -1.7015532237998368
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.12797683826445727
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.052179573815611294
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.07388542841011046
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.22458380424658328
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.1511660390274867
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.0388858204015475
+2014-03-30 01:07:47,605 [main] DEBUG test.Test1 - Init Values 0.023940411665456907 0.023938124849857922
+2014-03-30 01:07:47,605 [main] INFO  test.Test1 - Expected 0.023938124849857922 Actual 0.0388858204015475 Diff -0.014947695551689576
+2014-03-30 01:07:47,605 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.501505378884773
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4015419178258206
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4507928721499301
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5317503781111141
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5122904693805568
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.368471345036388
+2014-03-30 01:07:47,606 [main] DEBUG test.Test1 - Init Values -2.6824528180359364 -0.4431771903255244
+2014-03-30 01:07:47,606 [main] INFO  test.Test1 - Expected -0.4431771903255244 Actual -1.368471345036388 Diff 0.9252941547108635
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5157326720328055
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4360017613636253
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.475375144309493
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5398088197792281
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5243656385696454
+2014-03-30 01:07:47,606 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3541869958973016
+2014-03-30 01:07:47,606 [main] DEBUG test.Test1 - Init Values 3.3805456704821264 -0.2366855218797627
+2014-03-30 01:07:47,606 [main] INFO  test.Test1 - Expected -0.2366855218797627 Actual 1.3541869958973016 Diff -1.5908725177770644
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4427441931710068
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2644062858640648
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3510415446022093
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.498617511648063
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.462877714434502
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2819797711430487
+2014-03-30 01:07:47,607 [main] DEBUG test.Test1 - Init Values -1.4491750033954096 -0.9926132388434541
+2014-03-30 01:07:47,607 [main] INFO  test.Test1 - Expected -0.9926132388434541 Actual -1.2819797711430487 Diff 0.28936653229959464
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4535200436273255
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2893114722115946
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3693337465866657
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5048014013057756
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4721171872968777
+2014-03-30 01:07:47,607 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2663190401207693
+2014-03-30 01:07:47,607 [main] DEBUG test.Test1 - Init Values 1.585345240834954 0.9998941664169714
+2014-03-30 01:07:47,607 [main] INFO  test.Test1 - Expected 0.9998941664169714 Actual 1.2663190401207693 Diff -0.26642487370379797
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4534135378949657
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2893457818399607
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3692923272052886
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5048064437875526
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4721512850770004
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.242886083576953
+2014-03-30 01:07:47,608 [main] DEBUG test.Test1 - Init Values 1.5853970774166593 0.9998934109342326
+2014-03-30 01:07:47,608 [main] INFO  test.Test1 - Expected 0.9998934109342326 Actual 1.242886083576953 Diff -0.2429926726427205
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.6685250530836995
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.31199236149854975
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.42809336132886944
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9542132754537453
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7557636267835309
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.06433330005152074
+2014-03-30 01:07:47,608 [main] DEBUG test.Test1 - Init Values -0.1478172037966523 -0.14727949242632773
+2014-03-30 01:07:47,608 [main] INFO  test.Test1 - Expected -0.14727949242632773 Actual -0.06433330005152074 Diff -0.08294619237480699
+2014-03-30 01:07:47,608 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3768097650791062
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.116845045294614
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2393152433405765
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.459641468800228
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4045013626738538
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2204862265655767
+2014-03-30 01:07:47,609 [main] DEBUG test.Test1 - Init Values 0.9396547408655813 0.8073544225741223
+2014-03-30 01:07:47,609 [main] INFO  test.Test1 - Expected 0.8073544225741223 Actual 1.2204862265655767 Diff -0.41313180399145444
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3133757532061232
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9933551869862133
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1395537899707846
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.422796020006474
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3504423710339133
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1183767055406761
+2014-03-30 01:07:47,609 [main] DEBUG test.Test1 - Init Values 0.703355425151174 0.6467804265530919
+2014-03-30 01:07:47,609 [main] INFO  test.Test1 - Expected 0.6467804265530919 Actual 1.1183767055406761 Diff -0.47159627898758427
+2014-03-30 01:07:47,609 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4908936135562738
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3769228362501464
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.432588084972881
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5258283544305553
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5034479436180355
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.092595411610302
+2014-03-30 01:07:47,610 [main] DEBUG test.Test1 - Init Values -2.329481103868993 -0.7257414688437483
+2014-03-30 01:07:47,610 [main] INFO  test.Test1 - Expected -0.7257414688437483 Actual -1.092595411610302 Diff 0.3668539427665537
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.415590807412028
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2054836858909825
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3058679076818844
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4832821220215364
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4401125259875283
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.7273442702272038
+2014-03-30 01:07:47,610 [main] DEBUG test.Test1 - Init Values 1.1945909565400115 0.930065452032182
+2014-03-30 01:07:47,610 [main] INFO  test.Test1 - Expected 0.930065452032182 Actual 0.7273442702272038 Diff 0.20272118180497822
+2014-03-30 01:07:47,610 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7732578639032458
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.37735549380171285
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.5106671472048507
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0466717344653333
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.8562760509428001
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.034332224468894036
+2014-03-30 01:07:47,611 [main] DEBUG test.Test1 - Init Values 0.1813703811274463 0.18037764572902204
+2014-03-30 01:07:47,611 [main] INFO  test.Test1 - Expected 0.18037764572902204 Actual 0.034332224468894036 Diff 0.146045421260128
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4676762677968034
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3150465425435587
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3886513144327812
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5109433947163258
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4803951580060581
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2417693231976275
+2014-03-30 01:07:47,611 [main] DEBUG test.Test1 - Init Values 1.7525980491148339 0.98351953450637
+2014-03-30 01:07:47,611 [main] INFO  test.Test1 - Expected 0.98351953450637 Actual 1.2417693231976275 Diff -0.2582497886912575
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4490561035650915
+2014-03-30 01:07:47,611 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2713072567310704
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3565342970308942
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5001355546129602
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4641660752117465
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.201206286265365
+2014-03-30 01:07:47,612 [main] DEBUG test.Test1 - Init Values 1.4837652597158222 0.9962151865628995
+2014-03-30 01:07:47,612 [main] INFO  test.Test1 - Expected 0.9962151865628995 Actual 1.201206286265365 Diff -0.20499109970246543
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4962684180891679
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3847838047987624
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4388744500126407
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5276742696988133
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.505658281226631
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1873947451166234
+2014-03-30 01:07:47,612 [main] DEBUG test.Test1 - Init Values -2.4337456603635843 -0.6501995032599818
+2014-03-30 01:07:47,612 [main] INFO  test.Test1 - Expected -0.6501995032599818 Actual -1.1873947451166234 Diff 0.5371952418566416
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4301661766776972
+2014-03-30 01:07:47,612 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.228918069517428
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3246845467275221
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4893205421216367
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4480457755985017
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.9763351689446067
+2014-03-30 01:07:47,613 [main] DEBUG test.Test1 - Init Values -1.2859118334565256 -0.9596941218141185
+2014-03-30 01:07:47,613 [main] INFO  test.Test1 - Expected -0.9596941218141185 Actual -0.9763351689446067 Diff 0.016641047130488196
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4561221007321867
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2890655776942004
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3692271858007485
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5044725789766076
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4707864436156193
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.9828462430253994
+2014-03-30 01:07:47,613 [main] DEBUG test.Test1 - Init Values 1.5808484728976122 0.9999494776047892
+2014-03-30 01:07:47,613 [main] INFO  test.Test1 - Expected 0.9999494776047892 Actual 0.9828462430253994 Diff 0.017103234579389892
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.366009253106352
+2014-03-30 01:07:47,613 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0896546766712805
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2176966171811254
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4515659303644166
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3917395115771827
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.915485051009643
+2014-03-30 01:07:47,614 [main] DEBUG test.Test1 - Init Values -0.8764949897195669 -0.7685009278647944
+2014-03-30 01:07:47,614 [main] INFO  test.Test1 - Expected -0.7685009278647944 Actual -0.915485051009643 Diff 0.14698412314484854
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5238321851165435
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.453807066044307
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4878466071225096
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.543792523349802
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5300588355749962
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.8775487388595291
+2014-03-30 01:07:47,614 [main] DEBUG test.Test1 - Init Values 3.8867372551899733 -0.6780780982542343
+2014-03-30 01:07:47,614 [main] INFO  test.Test1 - Expected -0.6780780982542343 Actual 0.8775487388595291 Diff -1.5556268371137634
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1263274156352774
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.7123934861059397
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.8768851615933366
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3059741878153106
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.183614930158215
+2014-03-30 01:07:47,614 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.36482820875408
+2014-03-30 01:07:47,614 [main] DEBUG test.Test1 - Init Values 0.3868402456063338 0.3772640366124912
+2014-03-30 01:07:47,615 [main] INFO  test.Test1 - Expected 0.3772640366124912 Actual -1.36482820875408 Diff 1.742092245366571
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.491937402595504
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3777750951895607
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.43215608843962
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5254240265888102
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.502398566205021
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3856609542217102
+2014-03-30 01:07:47,615 [main] DEBUG test.Test1 - Init Values 2.312281820236162 0.7374660940420041
+2014-03-30 01:07:47,615 [main] INFO  test.Test1 - Expected 0.7374660940420041 Actual -1.3856609542217102 Diff 2.123127048263714
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4242740642177816
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2192488122054808
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3153278703203921
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.486055778514986
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4432432584335926
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3464611816703838
+2014-03-30 01:07:47,615 [main] DEBUG test.Test1 - Init Values -1.2360968751892463 -0.9445090780232943
+2014-03-30 01:07:47,615 [main] INFO  test.Test1 - Expected -0.9445090780232943 Actual 1.3464611816703838 Diff -2.290970259693678
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.453909594152805
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2834921534864216
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3646942516189962
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.502963710857733
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4683868366339357
+2014-03-30 01:07:47,615 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2799212279601921
+2014-03-30 01:07:47,616 [main] DEBUG test.Test1 - Init Values -1.5460886404440037 -0.9996947806453326
+2014-03-30 01:07:47,616 [main] INFO  test.Test1 - Expected -0.9996947806453326 Actual 1.2799212279601921 Diff -2.2796160086055246
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4712631962662044
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.321106405910369
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.393579150364199
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5126804214003524
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4827934867754038
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.9672112706801033
+2014-03-30 01:07:47,616 [main] DEBUG test.Test1 - Init Values -1.806107577052754 -0.9724418217875312
+2014-03-30 01:07:47,616 [main] INFO  test.Test1 - Expected -0.9724418217875312 Actual 0.9672112706801033 Diff -1.9396530924676345
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3811324147141082
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.107816489749632
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2354504626489484
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4570822354153588
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.398245918667347
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3536520591311825
+2014-03-30 01:07:47,616 [main] DEBUG test.Test1 - Init Values -0.9208948889902402 -0.7961434431829202
+2014-03-30 01:07:47,616 [main] INFO  test.Test1 - Expected -0.7961434431829202 Actual -1.3536520591311825 Diff 0.5575086159482623
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.521233790771191
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4427073942396913
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4810731894253966
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5413415629521279
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5258875123275755
+2014-03-30 01:07:47,616 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3750282311623665
+2014-03-30 01:07:47,617 [main] DEBUG test.Test1 - Init Values -3.5693580195633947 0.4148385574863153
+2014-03-30 01:07:47,617 [main] INFO  test.Test1 - Expected 0.4148385574863153 Actual -1.3750282311623665 Diff 1.7898667886486819
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.509796110400162
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4137023672271047
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4605491678392877
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5345739375864975
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5155998204497814
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3383482346854434
+2014-03-30 01:07:47,617 [main] DEBUG test.Test1 - Init Values 2.901898539171425 0.2374054970299288
+2014-03-30 01:07:47,617 [main] INFO  test.Test1 - Expected 0.2374054970299288 Actual 1.3383482346854434 Diff -1.1009427376555145
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5155161938671045
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.428449704674207
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4709149794401026
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5380131584908527
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5208546582769462
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2998976540312825
+2014-03-30 01:07:47,617 [main] DEBUG test.Test1 - Init Values 3.2064064173609275 -0.06476839476609184
+2014-03-30 01:07:47,617 [main] INFO  test.Test1 - Expected -0.06476839476609184 Actual 1.2998976540312825 Diff -1.3646660487973743
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5228247317681078
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.447397286362391
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4841840951581284
+2014-03-30 01:07:47,617 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.542401357575965
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5275603530027195
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1943898275914013
+2014-03-30 01:07:47,618 [main] DEBUG test.Test1 - Init Values -3.7019284850501206 0.5314707028824114
+2014-03-30 01:07:47,618 [main] INFO  test.Test1 - Expected 0.5314707028824114 Actual -1.1943898275914013 Diff 1.7258605304738128
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0272847790708297
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.572959633427441
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.742743782686655
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.228600392631617
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.0742128987156165
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.5552916973639807
+2014-03-30 01:07:47,618 [main] DEBUG test.Test1 - Init Values -0.2951132680918267 -0.29084822341128064
+2014-03-30 01:07:47,618 [main] INFO  test.Test1 - Expected -0.29084822341128064 Actual 0.5552916973639807 Diff -0.8461399207752613
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5247045726273314
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4409784586402363
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.481992801339504
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.541146709236102
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.524336536726948
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3383064694032707
+2014-03-30 01:07:47,618 [main] DEBUG test.Test1 - Init Values -3.560723736635131 0.40696690076509556
+2014-03-30 01:07:47,618 [main] INFO  test.Test1 - Expected 0.40696690076509556 Actual -1.3383064694032707 Diff 1.7452733701683663
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4508369061120365
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.242669953416592
+2014-03-30 01:07:47,618 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3423742684368036
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4935365892971157
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4500975039142618
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2485582067219625
+2014-03-30 01:07:47,619 [main] DEBUG test.Test1 - Init Values 1.364067096081289 0.9787075062970136
+2014-03-30 01:07:47,619 [main] INFO  test.Test1 - Expected 0.9787075062970136 Actual 1.2485582067219625 Diff -0.26985070042494885
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4264937268599038
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.181929074879993
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.297724648825855
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4778247076452182
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.425798061811475
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2129661951787791
+2014-03-30 01:07:47,619 [main] DEBUG test.Test1 - Init Values -1.1324696978528577 -0.9054631509313568
+2014-03-30 01:07:47,619 [main] INFO  test.Test1 - Expected -0.9054631509313568 Actual -1.2129661951787791 Diff 0.30750304424742236
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.470969519398278
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2962802732886087
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3803228875309888
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5067131719486406
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4707054078441166
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1766905106570238
+2014-03-30 01:07:47,619 [main] DEBUG test.Test1 - Init Values 1.6453248645865326 0.9972240338102867
+2014-03-30 01:07:47,619 [main] INFO  test.Test1 - Expected 0.9972240338102867 Actual 1.1766905106570238 Diff -0.1794664768467371
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4994566651882084
+2014-03-30 01:07:47,619 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3727872183531555
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4341708581266863
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5250778467936241
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4993445473197176
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1407247852612594
+2014-03-30 01:07:47,620 [main] DEBUG test.Test1 - Init Values -2.3076836631408844 -0.7405638094272532
+2014-03-30 01:07:47,620 [main] INFO  test.Test1 - Expected -0.7405638094272532 Actual -1.1407247852612594 Diff 0.4001609758340062
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4757102480385935
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.309921175882288
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3895430778289792
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5098962719265336
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4757545141294512
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.9534533461717182
+2014-03-30 01:07:47,620 [main] DEBUG test.Test1 - Init Values 1.7313181437585135 0.987144014029067
+2014-03-30 01:07:47,620 [main] INFO  test.Test1 - Expected 0.987144014029067 Actual 0.9534533461717182 Diff 0.033690667857348866
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4863358500823476
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3379691553120636
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4094865091725493
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5167059176271482
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4863381565538323
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.9936602278134384
+2014-03-30 01:07:47,620 [main] DEBUG test.Test1 - Init Values 1.9498273764002496 0.9290236031102262
+2014-03-30 01:07:47,620 [main] INFO  test.Test1 - Expected 0.9290236031102262 Actual 0.9936602278134384 Diff -0.06463662470321219
+2014-03-30 01:07:47,620 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2099950437066136
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.758279266327104
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9435338846468102
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3341221746802887
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2102248876859565
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.7979397379906772
+2014-03-30 01:07:47,621 [main] DEBUG test.Test1 - Init Values 0.43768335889116994 0.4238423390735067
+2014-03-30 01:07:47,621 [main] INFO  test.Test1 - Expected 0.4238423390735067 Actual 0.7979397379906772 Diff -0.3740973989171705
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0372546348212415
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.5576110326162046
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7304425819804258
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.215270454327452
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0484246673364372
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.26411714718914037
+2014-03-30 01:07:47,621 [main] DEBUG test.Test1 - Init Values 0.28394819062504073 0.28014791483570745
+2014-03-30 01:07:47,621 [main] INFO  test.Test1 - Expected 0.28014791483570745 Actual -0.26411714718914037 Diff 0.5442650620248478
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.451036912180218
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2297409317955863
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3353896585952216
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4903358916796512
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.442993211071017
+2014-03-30 01:07:47,621 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2730289507686818
+2014-03-30 01:07:47,621 [main] DEBUG test.Test1 - Init Values -1.3127481365792448 -0.9668899093920621
+2014-03-30 01:07:47,621 [main] INFO  test.Test1 - Expected -0.9668899093920621 Actual -1.2730289507686818 Diff 0.30613904137661974
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4672807157193555
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2739429948655854
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.366738302112564
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.501352465454056
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4604487401662467
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2520296112042417
+2014-03-30 01:07:47,622 [main] DEBUG test.Test1 - Init Values -1.5217628145207627 -0.9987980981755593
+2014-03-30 01:07:47,622 [main] INFO  test.Test1 - Expected -0.9987980981755593 Actual -1.2520296112042417 Diff 0.2532315130286824
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4263358745411276
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1666220926368975
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.2888855686843685
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4737677344812081
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.417030256093855
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.2180708198680983
+2014-03-30 01:07:47,622 [main] DEBUG test.Test1 - Init Values -1.0874149975953626 -0.8854284276713407
+2014-03-30 01:07:47,622 [main] INFO  test.Test1 - Expected -0.8854284276713407 Actual -1.2180708198680983 Diff 0.3326423921967576
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4154829169865755
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.140581980897457
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2689661423000516
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4665688226333724
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4058756458664197
+2014-03-30 01:07:47,622 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.1659151786998954
+2014-03-30 01:07:47,622 [main] DEBUG test.Test1 - Init Values 1.0117171567914918 0.8477438839235234
+2014-03-30 01:07:47,623 [main] INFO  test.Test1 - Expected 0.8477438839235234 Actual 1.1659151786998954 Diff -0.31817129477637196
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.25504065495029804
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.08911952607147201
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.13059302055427702
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.3727332800499906
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.24123991270940148
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.2124987683778961
+2014-03-30 01:07:47,623 [main] DEBUG test.Test1 - Init Values 0.04137595639143665 0.04136415167087561
+2014-03-30 01:07:47,623 [main] INFO  test.Test1 - Expected 0.04136415167087561 Actual 0.2124987683778961 Diff -0.17113461670702051
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9507710302781108
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.4521819539374197
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.6190094804070566
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1308460104635754
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9306164446124001
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.7929780199846537
+2014-03-30 01:07:47,623 [main] DEBUG test.Test1 - Init Values -0.22446073369930275 -0.2225806561045906
+2014-03-30 01:07:47,623 [main] INFO  test.Test1 - Expected -0.2225806561045906 Actual -0.7929780199846537 Diff 0.570397363880063
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.525801401957343
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.448035867809257
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4854351383130722
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5421624413160664
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5263224191770985
+2014-03-30 01:07:47,623 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.07441821814509741
+2014-03-30 01:07:47,624 [main] DEBUG test.Test1 - Init Values -3.6767310289576454 0.509960074535191
+2014-03-30 01:07:47,624 [main] INFO  test.Test1 - Expected 0.509960074535191 Actual 0.07441821814509741 Diff 0.4355418563900936
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5195722697027783
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4339353816712412
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.474379454510788
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5383610950360602
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.520566429754937
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3719234974994106
+2014-03-30 01:07:47,624 [main] DEBUG test.Test1 - Init Values 3.2440486454430415 -0.10227683522174578
+2014-03-30 01:07:47,624 [main] INFO  test.Test1 - Expected -0.10227683522174578 Actual -1.3719234974994106 Diff 1.2696466622776648
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4785187975707441
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3265803931012252
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3978060695216457
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5122576104431096
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.480209553862679
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3384307920809586
+2014-03-30 01:07:47,624 [main] DEBUG test.Test1 - Init Values 1.7961511427018806 0.9747148840238468
+2014-03-30 01:07:47,624 [main] INFO  test.Test1 - Expected 0.9747148840238468 Actual -1.3384307920809586 Diff 2.3131456761048055
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5247657144147306
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4462067562767458
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.483706116003299
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5415442498744645
+2014-03-30 01:07:47,624 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5254043147905387
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2583256635520121
+2014-03-30 01:07:47,625 [main] DEBUG test.Test1 - Init Values -3.598411795299276 0.4410956498559877
+2014-03-30 01:07:47,625 [main] INFO  test.Test1 - Expected 0.4410956498559877 Actual 1.2583256635520121 Diff -0.8172300136960244
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4943868684706978
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3649847555878971
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.426525320367519
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5221561090825388
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4953351717198533
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.1347638160841713
+2014-03-30 01:07:47,625 [main] DEBUG test.Test1 - Init Values 2.1631484160945567 0.8296297709825303
+2014-03-30 01:07:47,625 [main] INFO  test.Test1 - Expected 0.8296297709825303 Actual -1.1347638160841713 Diff 1.9643935870667018
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5252186032774944
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.445142737570269
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.483902642045796
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.541586955326554
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.525292238148024
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.02258826104906
+2014-03-30 01:07:47,625 [main] DEBUG test.Test1 - Init Values 3.605655219375847 -0.4475847056184617
+2014-03-30 01:07:47,625 [main] INFO  test.Test1 - Expected -0.4475847056184617 Actual 1.02258826104906 Diff -1.4701729666675216
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5228471903998098
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.440797143108102
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4799512860171364
+2014-03-30 01:07:47,625 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.540214065052315
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.523278882660804
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2366083252142273
+2014-03-30 01:07:47,626 [main] DEBUG test.Test1 - Init Values -3.442306538149282 0.29620213126896405
+2014-03-30 01:07:47,626 [main] INFO  test.Test1 - Expected 0.29620213126896405 Actual 1.2366083252142273 Diff -0.9404061939452633
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.8140474876913218
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.3694080417401895
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.5082032419052844
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0283315306098408
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.8175792619924317
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.8103467670096373
+2014-03-30 01:07:47,626 [main] DEBUG test.Test1 - Init Values 0.1747174523889825 0.17382989851642416
+2014-03-30 01:07:47,626 [main] INFO  test.Test1 - Expected 0.17382989851642416 Actual -0.8103467670096373 Diff 0.9841766655260614
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5276775762936319
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4428241153917154
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4838464579858048
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.541426899801937
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5237390278401024
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.6760671026348275
+2014-03-30 01:07:47,626 [main] DEBUG test.Test1 - Init Values -3.605457026957459 0.4474074649356329
+2014-03-30 01:07:47,626 [main] INFO  test.Test1 - Expected 0.4474074649356329 Actual -0.6760671026348275 Diff 1.1234745675704603
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.233812493540223
+2014-03-30 01:07:47,626 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.7833272672559377
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9607426975892549
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3381653611750415
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2096152828005988
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.366318131265587
+2014-03-30 01:07:47,627 [main] DEBUG test.Test1 - Init Values -0.4467171071843197 -0.4320071242043418
+2014-03-30 01:07:47,627 [main] INFO  test.Test1 - Expected -0.4320071242043418 Actual 1.366318131265587 Diff -1.7983252554699287
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3100149652728277
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9090374277411359
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0780539527154964
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3912937296513646
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2881111991057932
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3630652924364044
+2014-03-30 01:07:47,627 [main] DEBUG test.Test1 - Init Values -0.5836367606752404 -0.5510623204717394
+2014-03-30 01:07:47,627 [main] INFO  test.Test1 - Expected -0.5510623204717394 Actual 1.3630652924364044 Diff -1.914127612908144
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5293510096023064
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4481381326655425
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4869340465512106
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5424705092093136
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.525313113061324
+2014-03-30 01:07:47,627 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3937968473525635
+2014-03-30 01:07:47,627 [main] DEBUG test.Test1 - Init Values -3.739783379093768 0.5631482913599756
+2014-03-30 01:07:47,635 [main] INFO  test.Test1 - Expected 0.5631482913599756 Actual 1.3937968473525635 Diff -0.8306485559925879
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.489204714872964
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3320244252519138
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4064649257376942
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5149695558473675
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.481246254874415
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3736937631231032
+2014-03-30 01:07:47,635 [main] DEBUG test.Test1 - Init Values -1.8961065787952096 -0.9475516146181977
+2014-03-30 01:07:47,635 [main] INFO  test.Test1 - Expected -0.9475516146181977 Actual 1.3736937631231032 Diff -2.3212453777413007
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4678661084939335
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2701452617560138
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3637754003550706
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5001993524350805
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4575217290185658
+2014-03-30 01:07:47,635 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3222429029984906
+2014-03-30 01:07:47,635 [main] DEBUG test.Test1 - Init Values -1.4987340194744192 -0.997404635362392
+2014-03-30 01:07:47,635 [main] INFO  test.Test1 - Expected -0.997404635362392 Actual 1.3222429029984906 Diff -2.3196475383608828
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4830012272013051
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3087780124929935
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.392864635191121
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5104040428480234
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4735893177297583
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2032322755935523
+2014-03-30 01:07:47,636 [main] DEBUG test.Test1 - Init Values -1.7533347740758236 -0.9833860663400377
+2014-03-30 01:07:47,636 [main] INFO  test.Test1 - Expected -0.9833860663400377 Actual 1.2032322755935523 Diff -2.18661834193359
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3373526397207978
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -0.9336628055553873
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.1159881090331125
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4079219536613203
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.3107288361890075
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.49959942921513495
+2014-03-30 01:07:47,636 [main] DEBUG test.Test1 - Init Values -0.6454559026068036 -0.6015626876895653
+2014-03-30 01:07:47,636 [main] INFO  test.Test1 - Expected -0.6015626876895653 Actual -0.49959942921513495 Diff -0.10196325847443038
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.527317612200209
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4345966608839535
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4811749853577534
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5406078316633354
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.521796962916461
+2014-03-30 01:07:47,636 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 0.7660090815336347
+2014-03-30 01:07:47,636 [main] DEBUG test.Test1 - Init Values 3.5136450675611597 -0.36352819065683256
+2014-03-30 01:07:47,637 [main] INFO  test.Test1 - Expected -0.36352819065683256 Actual 0.7660090815336347 Diff -1.1295372721904673
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5241055732029043
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4299083462172173
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4755667581855147
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5385649348183492
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5187363811370702
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.395304021672052
+2014-03-30 01:07:47,637 [main] DEBUG test.Test1 - Init Values -3.288634676999836 0.1465127212739594
+2014-03-30 01:07:47,637 [main] INFO  test.Test1 - Expected 0.1465127212739594 Actual 1.395304021672052 Diff -1.2487913003980926
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5297552104284318
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4465019869694957
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4869877272287284
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5424557693485133
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.525000085554483
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3827501538479057
+2014-03-30 01:07:47,637 [main] DEBUG test.Test1 - Init Values -3.7405881403816004 0.563813128132781
+2014-03-30 01:07:47,637 [main] INFO  test.Test1 - Expected 0.563813128132781 Actual 1.3827501538479057 Diff -0.8189370257151247
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.361327049271369
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 0.9959738303615241
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.1604107204499752
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4250400554978397
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3377423167827895
+2014-03-30 01:07:47,637 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3134396581363836
+2014-03-30 01:07:47,638 [main] DEBUG test.Test1 - Init Values 0.7223691080940791 0.6611639288889656
+2014-03-30 01:07:47,638 [main] INFO  test.Test1 - Expected 0.6611639288889656 Actual -1.3134396581363836 Diff 1.9746035870253493
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5291270012633829
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.441200903876626
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4849121987546854
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.541837423753149
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5237753781310945
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.3070444323304775
+2014-03-30 01:07:47,638 [main] DEBUG test.Test1 - Init Values 3.663069933297667 -0.4981616068572659
+2014-03-30 01:07:47,638 [main] INFO  test.Test1 - Expected -0.4981616068572659 Actual -1.3070444323304775 Diff 0.8088828254732117
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4742453517878005
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2760366406679835
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3732513181909098
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5035726065256163
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4618175439675194
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.2244534024736717
+2014-03-30 01:07:47,638 [main] DEBUG test.Test1 - Init Values -1.5761377651894017 -0.9999857345518561
+2014-03-30 01:07:47,638 [main] INFO  test.Test1 - Expected -0.9999857345518561 Actual 1.2244534024736717 Diff -2.224439137025528
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5152976563917468
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3942373101500136
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4557002711833908
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5319692195568848
+2014-03-30 01:07:47,638 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5074819768091718
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -0.2849988916103693
+2014-03-30 01:07:47,639 [main] DEBUG test.Test1 - Init Values 2.7329569231353315 0.3973577574123642
+2014-03-30 01:07:47,639 [main] INFO  test.Test1 - Expected 0.3973577574123642 Actual -0.2849988916103693 Diff 0.6823566490227335
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.3958803150653405
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.0480414493314276
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.2171175519429922
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4467812774674005
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.369061047930304
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.4085767933734363
+2014-03-30 01:07:47,639 [main] DEBUG test.Test1 - Init Values 0.852053893174042 0.7526343544364983
+2014-03-30 01:07:47,639 [main] INFO  test.Test1 - Expected 0.7526343544364983 Actual 1.4085767933734363 Diff -0.655942438936938
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5211704774061514
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4104340005129266
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4674416709785958
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5358026410674572
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5134487001163055
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4174421390595637
+2014-03-30 01:07:47,639 [main] DEBUG test.Test1 - Init Values -3.0338373641194583 -0.10754688242051474
+2014-03-30 01:07:47,639 [main] INFO  test.Test1 - Expected -0.10754688242051474 Actual -1.4174421390595637 Diff 1.309895256639049
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5190718350810797
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4038839406683747
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4631162439656769
+2014-03-30 01:07:47,639 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.5343351356668158
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.511061419813121
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Output activation -1.4088907083421565
+2014-03-30 01:07:47,640 [main] DEBUG test.Test1 - Init Values -2.911570030318348 -0.22799955099599692
+2014-03-30 01:07:47,640 [main] INFO  test.Test1 - Expected -0.22799955099599692 Actual -1.4088907083421565 Diff 1.1808911573461596
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.5088454142613363
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.371763371944659
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation -1.4420194103304138
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.527134955536836
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Hidden activation 1.4993062192678666
+2014-03-30 01:07:47,640 [main] DEBUG framework.BackPropNeuronNetwork - Output activation 1.3985866798162045
+2014-03-30 01:07:47,640 [main] DEBUG test.Test1 - Init Values 2.430903870937148 0.6523559628628589
+2014-03-30 01:07:47,640 [main] INFO  test.Test1 - Expected 0.6523559628628589 Actual 1.3985866798162045 Diff -0.7462307169533456
