@@ -7,4 +7,6 @@ public interface INeuronLink {
 	public void setDestination(INeuron destination);
 	public Double getLinkWeight();
 	public void setLinkWeight(Double linkWeight);
+	public Double getOldLinkWeight(); 
+	public void setOldLinkWeight(Double linkWeight);
 }

@@ -80,10 +80,10 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 					*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
 			outputDelta.add(new OutputDeltaWrapper(otpDelta, nr));
 			for (INeuronLink lnk : nr.getInputLinks()) {
-				LOG.debug("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " old weight " + lnk.getLinkWeight());
+				LOG.debug("Old weight h->o " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 				double deltaW = gamma*otpDelta*lnk.getSource().getCurrentActivation();
 				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
-				LOG.debug("Output Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " new weight " + lnk.getLinkWeight());
+				LOG.debug("New weight h->o " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 			}
 		}
 		// recalculate for the hidden layer
@@ -98,14 +98,14 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 						break;
 					}
 				}
-				hdnDelta += tmpOtpDelta*lnk.getLinkWeight();
+				hdnDelta += tmpOtpDelta*lnk.getOldLinkWeight();
 			}
 			hdnDelta = hdnDelta*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
 			for (INeuronLink lnk : nr.getInputLinks()) {
-				//System.out.println("Hidden Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " old weight " + lnk.getLinkWeight());
+				LOG.debug("Old weight i->h " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 				double deltaW = gamma*hdnDelta*lnk.getSource().getCurrentActivation();
 				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
-				//System.out.println("Hidden Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId() + " new weight " + lnk.getLinkWeight());
+				LOG.debug("New weight i->h " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 			}
 		}
 	}
@@ -123,16 +123,16 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 		for (int i = 0; i < inputLayer.getNeuronList().size(); i++) {
 			INeuron inputNeuron = inputLayer.getNeuronList().get(i);
 			inputNeuron.setCurrentActivation(inputs.get(i));
-			
+			LOG.debug("calculate Input activation " + inputNeuron.getCurrentActivation());
 		}
 		for (INeuron nr : hiddenLayer.getNeuronList()) {
 			nr.calculateActivation();
-			LOG.debug("Hidden activation " + nr.getCurrentActivation());
+			LOG.debug("calculate Hidden activation " + nr.getCurrentActivation());
 		}
 		List<Double> outputs = new ArrayList<>();
 		for (INeuron nrOutp : outputLayer.getNeuronList()) {
 			outputs.add(nrOutp.calculateActivation());
-			LOG.debug("Output activation " + nrOutp.getCurrentActivation());
+			LOG.debug("calculate Output activation " + nrOutp.getCurrentActivation());
 		}
 		res.setResult(outputs);
 		return res;

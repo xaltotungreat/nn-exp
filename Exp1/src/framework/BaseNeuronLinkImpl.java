@@ -5,6 +5,7 @@ public class BaseNeuronLinkImpl implements INeuronLink {
 	protected INeuron source;
 	protected INeuron destination;
 	protected Double linkWeight;
+	protected Double oldLinkWeight;
 	
 	public BaseNeuronLinkImpl() {
 		// TODO Auto-generated constructor stub
@@ -37,6 +38,7 @@ public class BaseNeuronLinkImpl implements INeuronLink {
 	}
 
 	public void setLinkWeight(Double linkWeight) {
+		this.oldLinkWeight = this.linkWeight;
 		this.linkWeight = linkWeight;
 	}
 	
@@ -44,6 +46,17 @@ public class BaseNeuronLinkImpl implements INeuronLink {
 	public String toString() {
 		return "BaseNeuronLinkImpl [linkWeight=" + linkWeight + ", source=" + source + ", destination="
 				+ destination + "]";
+	}
+
+	@Override
+	public Double getOldLinkWeight() {
+		// TODO Auto-generated method stub
+		return oldLinkWeight;
+	}
+
+	@Override
+	public void setOldLinkWeight(Double linkWeight) {
+		oldLinkWeight = linkWeight;
 	}
 
 }

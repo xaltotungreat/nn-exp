@@ -13,7 +13,7 @@ public class SinActivationFunction implements IActivationFunction {
 
 	@Override
 	public Double getDerivativeValueByS(int level, Double input) {
-		if (level > 1) {
+		if (level != 1) {
 			LOG.error("getDerivativeValueByS incorrect derivative level " + level);
 			return null;
 		} else {
