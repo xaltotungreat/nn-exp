@@ -72,7 +72,7 @@ public class GraphFrame extends JFrame {
 			}
 			
 			if ((minY <= 0) && (maxY >= 0)) {
-				yAxisLoc = (int)(((double)getHeight())/(maxY - minY)*Math.abs(minY));
+				yAxisLoc = (int)(((double)getHeight())/(maxY - minY)*Math.abs(maxY));
 			}
 			
 			if (yAxisLoc != null) {

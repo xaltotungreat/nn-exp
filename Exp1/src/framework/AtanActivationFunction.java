@@ -4,11 +4,20 @@ import org.apache.log4j.Logger;
 
 public class AtanActivationFunction implements IActivationFunction {
 
-	public static final Logger LOG = Logger.getLogger(AtanActivationFunction.class);
+	private static final Logger LOG = Logger.getLogger(AtanActivationFunction.class);
+	protected Double coef = 1d;
+	
+	public AtanActivationFunction() {
+		
+	}
+	
+	public AtanActivationFunction(double c) {
+		coef = c;
+	}
 	
 	@Override
 	public Double getActivationFunctionValue(Double input) {
-		return Math.atan(input);
+		return coef*Math.atan(input);
 	}
 
 	@Override
@@ -17,7 +26,7 @@ public class AtanActivationFunction implements IActivationFunction {
 			LOG.error("getDerivativeValueByS incorrect derivative level " + level);
 			return null;
 		} else {
-			return 1/(1 + input*input);
+			return coef/(1 + input*input);
 		}
 	}
 

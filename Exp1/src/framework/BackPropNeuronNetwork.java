@@ -12,6 +12,7 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 	protected INeuronLayer hiddenLayer;
 	protected INeuronLayer outputLayer;
 	protected double gamma = 1;
+	public boolean logCalculation = true;
 	
 	public class OutputDeltaWrapper {
 		protected Double deltaValue;
@@ -66,24 +67,26 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 			return null;
 		}
 		CalculationResult calcRes = calculate(inputs);
-		recalculateWeights(expectedResults, calcRes.getResult());
+		recalculateWeights(expectedResults, calcRes.getResult(), inputs);
 		
 		return new TrainResult(expectedResults, calcRes.getResult());
 	}
 	
-	protected void recalculateWeights(List<Double> expectedResults, List<Double> actualResults) {
+	protected void recalculateWeights(List<Double> expectedResults, List<Double> actualResults,
+			List<Double> inputs) {
 		List<OutputDeltaWrapper> outputDelta = new ArrayList<>();
 		// recalculate for the output neurons
 		for (int i = 0; i < outputLayer.getNeuronList().size(); i++) {
 			INeuron nr = outputLayer.getNeuronList().get(i);
 			double otpDelta = (expectedResults.get(i) - actualResults.get(i))
 					*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
+			LOG.debug("recalculateWeights diff " + (expectedResults.get(i) - actualResults.get(i)) + " delta " + otpDelta);
 			outputDelta.add(new OutputDeltaWrapper(otpDelta, nr));
 			for (INeuronLink lnk : nr.getInputLinks()) {
-				LOG.debug("Old weight h->o " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
+				//LOG.debug("Old weight h->o " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 				double deltaW = gamma*otpDelta*lnk.getSource().getCurrentActivation();
 				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
-				LOG.debug("New weight h->o " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
+				//LOG.debug("New weight h->o " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 			}
 		}
 		// recalculate for the hidden layer
@@ -102,12 +105,17 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 			}
 			hdnDelta = hdnDelta*nr.getActivationFunction().getDerivativeValueByS(1, nr.getCurrentInput());
 			for (INeuronLink lnk : nr.getInputLinks()) {
-				LOG.debug("Old weight i->h " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
+				//LOG.debug("Old weight i->h " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 				double deltaW = gamma*hdnDelta*lnk.getSource().getCurrentActivation();
 				lnk.setLinkWeight(lnk.getLinkWeight() + deltaW);
-				LOG.debug("New weight i->h " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
+				//LOG.debug("New weight i->h " + lnk.getLinkWeight() + " Src " + lnk.getSource().getId() + " Dst " + lnk.getDestination().getId());
 			}
 		}
+		StringBuilder sb = new StringBuilder();
+		for (INeuron nr : hiddenLayer.getNeuronList()) {
+			sb.append(nr.getInputLinks().get(0).getLinkWeight() + " -> " + nr.getOutputLinks().get(0).getLinkWeight() + "\n");
+		}
+		LOG.debug("\n" + sb.toString());
 	}
 
 	@Override
@@ -123,16 +131,22 @@ public class BackPropNeuronNetwork extends BaseNeuronNetworkImpl {
 		for (int i = 0; i < inputLayer.getNeuronList().size(); i++) {
 			INeuron inputNeuron = inputLayer.getNeuronList().get(i);
 			inputNeuron.setCurrentActivation(inputs.get(i));
-			LOG.debug("calculate Input activation " + inputNeuron.getCurrentActivation());
+			if (logCalculation) {
+				LOG.debug("calculate Input activation " + inputNeuron.getCurrentActivation());
+			}
 		}
 		for (INeuron nr : hiddenLayer.getNeuronList()) {
 			nr.calculateActivation();
-			LOG.debug("calculate Hidden activation " + nr.getCurrentActivation());
+			if (logCalculation) {
+				LOG.debug("calculate Hidden activation " + nr.getCurrentActivation());
+			}
 		}
 		List<Double> outputs = new ArrayList<>();
 		for (INeuron nrOutp : outputLayer.getNeuronList()) {
 			outputs.add(nrOutp.calculateActivation());
-			LOG.debug("calculate Output activation " + nrOutp.getCurrentActivation());
+			if (logCalculation) {
+				LOG.debug("calculate Output activation " + nrOutp.getCurrentActivation());
+			}
 		}
 		res.setResult(outputs);
 		return res;
