@@ -3,8 +3,11 @@ package test;
 import java.util.Arrays;
 import java.util.List;
 
+import com.sun.istack.internal.NotNull;
+
 public class LmdTest1 {
 
+	@NotNull String aa = "a";
 	public static void main(String args[]) {
 		List<AAA> testLst = Arrays.asList(new AAA(2d, 2d), new AAA(3d, 3d));
 		/*double res = 0;
