@@ -12,9 +12,11 @@ public class SigmaInput implements ISummInput {
 	public Double getSummInputValue(List<INeuronLink> inputLinks) {
 		double res = 0;
 		if (inputLinks != null) {
-			for (INeuronLink nl : inputLinks) {
+			double res1 = inputLinks.stream().mapToDouble(nl -> nl.getLinkWeight()*nl.getSource().getCurrentActivation()).sum();
+			res = res1;
+			/*for (INeuronLink nl : inputLinks) {
 				res += nl.getLinkWeight()*nl.getSource().getCurrentActivation();
-			}
+			}*/
 		}
 		return res;
 	}

@@ -51,13 +51,13 @@ public class Test1 {
 				//return new SigmoidActivationFunction();
 				//return new LinearActivationFunction(1);
 				//return new SemiLinearActivationFunction(-1000, -1000, 1000, 1000);
-				return new AtanActivationFunction();
-				//return new SinActivationFunction();
+				//return new AtanActivationFunction();
+				return new SinActivationFunction();
 			}
 		};
 		
 		INeuronLayer inpLayer = NeuronNetworkUtil.generateNeuronLayer(1, defFactory);
-		INeuronLayer hidLayer = NeuronNetworkUtil.generateNeuronLayer(10, defFactory);
+		INeuronLayer hidLayer = NeuronNetworkUtil.generateNeuronLayer(20, defFactory);
 		INeuronLayer outpLayer = NeuronNetworkUtil.generateNeuronLayer(1, defFactory);
 		NeuronNetworkUtil.interconnectAllRandomWeights(inpLayer, hidLayer, -1, 1);
 		NeuronNetworkUtil.interconnectAllRandomWeights(hidLayer, outpLayer, -1, 1);
@@ -67,11 +67,11 @@ public class Test1 {
 		AbstractFunction<Double, Double> currFunc = new AbstractFunction<Double, Double>() {
 			@Override
 			public Double apply(Double arg) {
-				return Math.log(arg);
+				return Math.sin(2*arg)*Math.sin(arg);
 			}
 		};
-		double lowBoundX = 1;
-		double highBoundX = 2.5;
+		double lowBoundX = -2;
+		double highBoundX = 3;
 		
 		Map<List<Double>,List<Double>> trainValues = getInputResultsRandom(2000, lowBoundX, highBoundX, currFunc);
 		for (Map.Entry<List<Double>,List<Double>> currEntry : trainValues.entrySet()) {
@@ -82,8 +82,8 @@ public class Test1 {
 					+ " Diff " + (currRes.getExpectedResults().get(0) - currRes.getActualResults().get(0)));
 		}
 		if (drawGraph) {
-			Double graphLowX = 1d;
-			Double graphHighX = 2.5d;
+			Double graphLowX = -2d;
+			Double graphHighX = 3d;
 			Map<List<Double>,List<Double>> origFunc1 = getResultsInOrder(100, graphLowX, graphHighX, currFunc);
 			nn.logCalculation = false;
 			Map<List<Double>,List<Double>> nnFunc1 = getNNResultsOrder(100, 
