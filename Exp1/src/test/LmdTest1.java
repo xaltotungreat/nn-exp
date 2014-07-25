@@ -3,21 +3,21 @@ package test;
 import java.util.Arrays;
 import java.util.List;
 
-import com.sun.istack.internal.NotNull;
-
 public class LmdTest1 {
 
-	@NotNull String aa = "a";
+	//@NotNull String aa = "a";
 	public static void main(String args[]) {
-		List<AAA> testLst = Arrays.asList(new AAA(2d, 2d), new AAA(3d, 3d));
+		List<AAA> testLst = Arrays.asList(new AAA(2d, 2d), new AAA(3d, 3d), new AAA(1d, 3d));
 		/*double res = 0;
 		for (AAA a : testLst) {
 			res += a.getVal1()*a.getVal2();
 		}*/
 		//double res = testLst.stream().reduce(0d, (Double z, AAA aa) -> z + aa.getVal1()*aa.getVal2());
 		//double res = testLst.stream().mapToDouble(aa -> aa.getVal1()*aa.getVal2()).sum();
-		double res = testLst.stream().map(aa -> aa.getVal1()*aa.getVal2()).reduce(0d, Double::sum);
-		System.out.println("Res A " + res);
+		double res1 = testLst.stream().map(aa -> aa.getVal1()*aa.getVal2()).reduce(0d, Double::sum);
+		System.out.println("Res 1 " + res1);
+		double res2 = testLst.stream().filter(aa -> aa.getVal2() == 3d).mapToDouble(aa -> aa.getVal1()).sum();
+		System.out.println("Res 2 " + res2);
 	}
 	
 	private static class AAA {
