@@ -1,0 +1,1 @@
+I'm planning to learn the basic of neural networks and use a framework to try different learning strategies (wjk, sk, yk, Fk(t) etc). The project is going to run for some time. This google code project will contain the framework and the experiments.
