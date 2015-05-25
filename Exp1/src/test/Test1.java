@@ -12,18 +12,14 @@ import java.util.TreeMap;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import framework.AtanActivationFunction;
 import framework.BackPropNeuronNetwork;
 import framework.IActivationFunction;
 import framework.INeuronLayer;
 import framework.INeuronNetwork;
 import framework.INeuronValuesFactory;
 import framework.ISummInput;
-import framework.LinearActivationFunction;
 import framework.NeuronNetworkUtil;
-import framework.SemiLinearActivationFunction;
 import framework.SigmaInput;
-import framework.SigmoidActivationFunction;
 import framework.SinActivationFunction;
 import framework.TestResult;
 import framework.TrainResult;
@@ -33,19 +29,19 @@ import framework.util.AbstractFunction;
 public class Test1 {
 
 	public static final Logger LOG = Logger.getLogger(Test1.class);
-	
+
 	public static void main(String[] args) {
 		boolean drawGraph = true;
-		
+
 		PropertyConfigurator.configure("log4j.properties");
 		BackPropNeuronNetwork nn = new BackPropNeuronNetwork(0.1);
 		INeuronValuesFactory defFactory = new INeuronValuesFactory() {
-			
+
 			@Override
 			public ISummInput getSummInput() {
 				return new SigmaInput();
 			}
-			
+
 			@Override
 			public IActivationFunction getActivationFunction() {
 				//return new SigmoidActivationFunction();
@@ -55,9 +51,9 @@ public class Test1 {
 				return new SinActivationFunction();
 			}
 		};
-		
+
 		INeuronLayer inpLayer = NeuronNetworkUtil.generateNeuronLayer(1, defFactory);
-		INeuronLayer hidLayer = NeuronNetworkUtil.generateNeuronLayer(20, defFactory);
+		INeuronLayer hidLayer = NeuronNetworkUtil.generateNeuronLayer(10, defFactory);
 		INeuronLayer outpLayer = NeuronNetworkUtil.generateNeuronLayer(1, defFactory);
 		NeuronNetworkUtil.interconnectAllRandomWeights(inpLayer, hidLayer, -1, 1);
 		NeuronNetworkUtil.interconnectAllRandomWeights(hidLayer, outpLayer, -1, 1);
@@ -67,30 +63,32 @@ public class Test1 {
 		AbstractFunction<Double, Double> currFunc = new AbstractFunction<Double, Double>() {
 			@Override
 			public Double apply(Double arg) {
-				return Math.sin(2*arg)*Math.sin(arg);
+				//return Math.sin(2*arg)*Math.sin(arg);
+				return Math.log(arg);
 			}
 		};
-		double lowBoundX = -2;
+		double lowBoundX = 1;
 		double highBoundX = 3;
-		
+
 		Map<List<Double>,List<Double>> trainValues = getInputResultsRandom(2000, lowBoundX, highBoundX, currFunc);
 		for (Map.Entry<List<Double>,List<Double>> currEntry : trainValues.entrySet()) {
 			TrainResult currRes = nn.train(currEntry.getKey(), currEntry.getValue());
 			//System.out.println("Diff " + (currRes.getExpectedResults().get(0) - currRes.getActualResults().get(0)));
 			//LOG.debug("Init Values " + currEntry.getKey().get(0) + " " + currEntry.getValue().get(0));
-			LOG.info("Expected " + currRes.getExpectedResults().get(0) + " Actual " + currRes.getActualResults().get(0) 
+			LOG.info("Expected " + currRes.getExpectedResults().get(0) + " Actual " + currRes.getActualResults().get(0)
 					+ " Diff " + (currRes.getExpectedResults().get(0) - currRes.getActualResults().get(0)));
 		}
 		if (drawGraph) {
-			Double graphLowX = -2d;
-			Double graphHighX = 3d;
+			Double graphLowX = lowBoundX;
+			Double graphHighX = highBoundX;
 			Map<List<Double>,List<Double>> origFunc1 = getResultsInOrder(100, graphLowX, graphHighX, currFunc);
 			nn.logCalculation = false;
-			Map<List<Double>,List<Double>> nnFunc1 = getNNResultsOrder(100, 
+			Map<List<Double>,List<Double>> nnFunc1 = getNNResultsOrder(100,
 					Collections.singletonList(graphLowX), Collections.singletonList(graphHighX), nn);
 			final Map<Double,Double> origFunc = convertResultsKeysOrder(origFunc1, 0);
 			final Map<Double,Double> nnFunc = convertResultsKeysOrder(nnFunc1, 0);
 			EventQueue.invokeLater(new Runnable() {
+				@Override
 				public void run() {
 					try {
 						GraphFrame frame = new GraphFrame(origFunc, Color.BLUE, nnFunc, Color.MAGENTA);
@@ -102,7 +100,7 @@ public class Test1 {
 			});
 		}
 	}
-	
+
 	public static Map<List<Double>,List<Double>> getInputResultsRandom(int count, double lowBound, double highBound,
 			AbstractFunction<Double, Double> f) {
 		Map<List<Double>,List<Double>> res = new HashMap<List<Double>,List<Double>>();
@@ -114,7 +112,7 @@ public class Test1 {
 		}
 		return res;
 	}
-	
+
 	public static Map<List<Double>,List<Double>> getResultsInOrder(int count, double lowBound, double highBound,
 			AbstractFunction<Double, Double> f) {
 		Map<List<Double>,List<Double>> res = new HashMap<List<Double>,List<Double>>();
@@ -126,8 +124,8 @@ public class Test1 {
 		}
 		return res;
 	}
-	
-	public static Map<List<Double>,List<Double>> getNNResultsOrder(int count, List<Double> lowBound, 
+
+	public static Map<List<Double>,List<Double>> getNNResultsOrder(int count, List<Double> lowBound,
 			List<Double> highBound, INeuronNetwork nn) {
 		Map<List<Double>,List<Double>> res = new HashMap<List<Double>,List<Double>>();
 		List<Double> steps = new ArrayList<>();
@@ -145,7 +143,7 @@ public class Test1 {
 		}
 		return res;
 	}
-	
+
 	public static Map<Double,Double> convertResultsKeysOrder(Map<List<Double>, List<Double>> init, int num) {
 		Map<Double,Double> res = new TreeMap<>();
 		if (num >= 0) {
