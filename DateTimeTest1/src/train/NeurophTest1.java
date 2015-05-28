@@ -17,7 +17,6 @@ import org.neuroph.core.events.LearningEventListener;
 import org.neuroph.nnet.comp.layer.InputLayer;
 import org.neuroph.nnet.comp.neuron.BiasNeuron;
 import org.neuroph.nnet.learning.BackPropagation;
-import org.neuroph.nnet.learning.MomentumBackpropagation;
 import org.neuroph.util.ConnectionFactory;
 import org.neuroph.util.NeuronProperties;
 import org.neuroph.util.TransferFunctionType;
@@ -31,9 +30,9 @@ public class NeurophTest1 {
 
 	public static final int INPUT_NEURONS = 1;
 
-	public static final int HIDDEN_NEURONS1 = 10;
+	public static final int HIDDEN_NEURONS1 = 50;
 
-	public static final int HIDDEN_NEURONS2 = 10;
+	public static final int HIDDEN_NEURONS2 = 50;
 
 	public static final int HIDDEN_NEURONS3 = 10;
 
@@ -59,7 +58,7 @@ public class NeurophTest1 {
 				1, ",", false);
 		final NeuralNetwork<BackPropagation> nn1 = new NeuralNetwork<>();
 		//BackPropagation lRule = new BackPropagation();
-		MomentumBackpropagation lRule = new MomentumBackpropagation();
+		BackPropagation lRule = new BackPropagation();
 		lRule.setMaxIterations(MAX_ITERATIONS);
 		nn1.setLearningRule(lRule);
 
