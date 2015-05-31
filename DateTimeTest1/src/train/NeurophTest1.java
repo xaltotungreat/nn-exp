@@ -11,11 +11,11 @@ import java.util.TreeMap;
 
 import org.neuroph.core.Layer;
 import org.neuroph.core.NeuralNetwork;
+import org.neuroph.core.Neuron;
 import org.neuroph.core.data.DataSet;
 import org.neuroph.core.events.LearningEvent;
 import org.neuroph.core.events.LearningEventListener;
 import org.neuroph.nnet.comp.layer.InputLayer;
-import org.neuroph.nnet.comp.neuron.BiasNeuron;
 import org.neuroph.nnet.learning.BackPropagation;
 import org.neuroph.util.ConnectionFactory;
 import org.neuroph.util.NeuronProperties;
@@ -30,9 +30,9 @@ public class NeurophTest1 {
 
 	public static final int INPUT_NEURONS = 1;
 
-	public static final int HIDDEN_NEURONS1 = 50;
+	public static final int HIDDEN_NEURONS1 = 10;
 
-	public static final int HIDDEN_NEURONS2 = 50;
+	public static final int HIDDEN_NEURONS2 = 10;
 
 	public static final int HIDDEN_NEURONS3 = 10;
 
@@ -46,7 +46,7 @@ public class NeurophTest1 {
 
 	public static final int MAX_ITERATIONS = 1000;
 
-	public static final double LEARNING_RATE = 0.01;
+	public static final double LEARNING_RATE = 0.0001;
 
 	public static final double GRAPH_LOW_BOUND_X = -5d;
 
@@ -64,12 +64,12 @@ public class NeurophTest1 {
 
 		Layer inputLayer = new InputLayer(INPUT_NEURONS);
 
-		NeuronProperties hiddenProp1 = new NeuronProperties(BiasNeuron.class,
-				TransferFunctionType.SIN);
+		NeuronProperties hiddenProp1 = new NeuronProperties(Neuron.class,
+				TransferFunctionType.SIGMOID);
 		Layer hiddenLayer1 = new Layer(HIDDEN_NEURONS1, hiddenProp1);
 		ConnectionFactory.fullConnect(inputLayer, hiddenLayer1);
 
-		NeuronProperties hiddenProp2 = new NeuronProperties(BiasNeuron.class,
+		NeuronProperties hiddenProp2 = new NeuronProperties(Neuron.class,
 				TransferFunctionType.SIGMOID);
 		Layer hiddenLayer2 = new Layer(HIDDEN_NEURONS2, hiddenProp2);
 		ConnectionFactory.fullConnect(hiddenLayer1, hiddenLayer2);
@@ -79,8 +79,8 @@ public class NeurophTest1 {
 		Layer hiddenLayer3 = new Layer(HIDDEN_NEURONS3, hiddenProp3);
 		ConnectionFactory.fullConnect(hiddenLayer2, hiddenLayer3);*/
 
-		NeuronProperties outputProp = new NeuronProperties(BiasNeuron.class,
-				TransferFunctionType.SIN);
+		NeuronProperties outputProp = new NeuronProperties(Neuron.class,
+				TransferFunctionType.SIGMOID);
 		Layer outputLayer = new Layer(OUTPUT_NEURONS, outputProp);
 		ConnectionFactory.fullConnect(hiddenLayer2, outputLayer);
 
